@@ -21,7 +21,6 @@ public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(AbstractBlock.Settings.copy(Blocks.AMETHYST_BLOCK)));
 
-
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(MoarConcrete.MOD_ID, name), block);
