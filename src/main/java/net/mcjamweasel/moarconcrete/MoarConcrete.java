@@ -2,6 +2,7 @@ package net.mcjamweasel.moarconcrete;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mcjamweasel.moarconcrete.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,8 +12,8 @@ public class MoarConcrete implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-	
 
-		LOGGER.info("Hello Fabric world! ");
+
+		ModItems.registerModItems();
 	}
 }
