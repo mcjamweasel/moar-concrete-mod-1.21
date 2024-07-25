@@ -19,12 +19,12 @@ public class ModItems {
     }
 
     private static Item registerItem(String name, Item item){
-        return Registry.register(Registries.ITEM, new Identifier(MoarConcrete.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of(MoarConcrete.MOD_ID, name), item);
     }
 
     public static void registerModItems(){
         MoarConcrete.LOGGER.info("Registering mod items for " + MoarConcrete.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup)
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }
