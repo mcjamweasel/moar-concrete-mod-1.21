@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapreless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "moarconcrete:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "moarconcrete:ruby",
+    "count": 9
+  }
+}
