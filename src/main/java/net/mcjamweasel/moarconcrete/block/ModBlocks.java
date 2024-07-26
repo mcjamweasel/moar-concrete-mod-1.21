@@ -1,12 +1,8 @@
 package net.mcjamweasel.moarconcrete.block;
 
-import net.fabricmc.fabric.api.block.v1.FabricBlockState;
-import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mcjamweasel.moarconcrete.MoarConcrete;
-import net.mcjamweasel.moarconcrete.item.ModItems;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -21,10 +17,17 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.copy(Blocks.AMETHYST_BLOCK)));
 
 
-    //red concrete stairs
+    //Stairs functions. Add one per colour.
     public static final Block RED_CONCRETE_STAIRS = registerBlock("red_concrete_stairs",
             new StairsBlock(Blocks.RED_CONCRETE.getDefaultState(),
                     AbstractBlock.Settings.copy(Blocks.RED_CONCRETE)));
+
+
+
+    //Slab functions. Add one per colour.
+    public static final Block RED_CONCRETE_SLAB = registerBlock("red_concrete_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.RED_CONCRETE)));
+
 
 
     private static Block registerBlock(String name, Block block){
@@ -39,9 +42,11 @@ public class ModBlocks {
     }
 
 
+    //Add an entry for each block to add the item.
     private static void addBLockToGroup(FabricItemGroupEntries entries){
         entries.add(RUBY_BLOCK);
         entries.add(RED_CONCRETE_STAIRS);
+        entries.add(RED_CONCRETE_SLAB);
     }
 
 
