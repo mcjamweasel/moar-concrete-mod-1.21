@@ -13,10 +13,6 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block RUBY_BLOCK = registerBlock("ruby_block",
-            new Block(AbstractBlock.Settings.copy(Blocks.AMETHYST_BLOCK)));
-
-
     //Stairs functions.
     //Add one per colour.
     public static final Block RED_CONCRETE_STAIRS = registerBlock("red_concrete_stairs",
@@ -27,6 +23,10 @@ public class ModBlocks {
             new StairsBlock(Blocks.WHITE_CONCRETE.getDefaultState(),
                     AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
 
+    public static final Block ORANGE_CONCRETE_STAIRS = registerBlock("orange_concrete_stairs",
+            new StairsBlock(Blocks.ORANGE_CONCRETE.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.ORANGE_CONCRETE)));
+
 
 
     //Slab functions.
@@ -36,6 +36,9 @@ public class ModBlocks {
 
     public static final Block WHITE_CONCRETE_SLAB = registerBlock("white_concrete_slab",
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final Block ORANGE_CONCRETE_SLAB = registerBlock("orange_concrete_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.ORANGE_CONCRETE)));
 
 
 
@@ -53,11 +56,12 @@ public class ModBlocks {
 
     //Add an entry for each block to add the item.
     private static void addBLockToGroup(FabricItemGroupEntries entries){
-        entries.add(RUBY_BLOCK);
         entries.add(RED_CONCRETE_STAIRS);
         entries.add(RED_CONCRETE_SLAB);
         entries.add(WHITE_CONCRETE_STAIRS);
         entries.add(WHITE_CONCRETE_SLAB);
+        entries.add(ORANGE_CONCRETE_STAIRS);
+        entries.add(ORANGE_CONCRETE_SLAB);
     }
 
 
