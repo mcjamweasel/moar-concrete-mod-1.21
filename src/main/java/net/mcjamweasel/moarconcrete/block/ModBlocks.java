@@ -27,6 +27,9 @@ public class ModBlocks {
             new StairsBlock(Blocks.ORANGE_CONCRETE.getDefaultState(),
                     AbstractBlock.Settings.copy(Blocks.ORANGE_CONCRETE)));
 
+    public static final Block MAGENTA_CONCRETE_STAIRS = registerBlock("magenta_concrete_stairs",
+            new StairsBlock(Blocks.MAGENTA_CONCRETE.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.MAGENTA_CONCRETE)));
 
 
     //Slab functions.
@@ -39,6 +42,9 @@ public class ModBlocks {
 
     public static final Block ORANGE_CONCRETE_SLAB = registerBlock("orange_concrete_slab",
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.ORANGE_CONCRETE)));
+
+    public static final Block MAGENTA_CONCRETE_SLAB = registerBlock("magenta_concrete_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.MAGENTA_CONCRETE)));
 
 
 
@@ -62,6 +68,8 @@ public class ModBlocks {
         entries.add(WHITE_CONCRETE_SLAB);
         entries.add(ORANGE_CONCRETE_STAIRS);
         entries.add(ORANGE_CONCRETE_SLAB);
+        entries.add(MAGENTA_CONCRETE_STAIRS);
+        entries.add(MAGENTA_CONCRETE_SLAB);
     }
 
 
