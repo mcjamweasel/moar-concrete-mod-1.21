@@ -10,6 +10,8 @@
     "moarconcrete:magenta_concrete_stairs",
     "moarconcrete:magenta_concrete_slab",
     "moarconcrete:yellow_concrete_stairs",
-    "moarconcrete:yellow_concrete_slab"
+    "moarconcrete:yellow_concrete_slab",
+    "moarconcrete:lime_concrete_stairs",
+    "moarconcrete:lime_concrete_slab"
   ]
 }

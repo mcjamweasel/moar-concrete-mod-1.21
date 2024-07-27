@@ -35,6 +35,10 @@ public class ModBlocks {
             new StairsBlock(Blocks.YELLOW_CONCRETE.getDefaultState(),
                     AbstractBlock.Settings.copy(Blocks.YELLOW_CONCRETE)));
 
+    public static final Block LIME_CONCRETE_STAIRS = registerBlock("lime_concrete_stairs",
+            new StairsBlock(Blocks.LIME_CONCRETE.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.LIME_CONCRETE)));
+
 
     //Slab functions.
     //Add one per colour.
@@ -52,6 +56,9 @@ public class ModBlocks {
 
     public static final Block YELLOW_CONCRETE_SLAB = registerBlock("yellow_concrete_slab",
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.YELLOW_CONCRETE)));
+
+    public static final Block LIME_CONCRETE_SLAB = registerBlock("lime_concrete_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.LIME_CONCRETE)));
 
 
 
@@ -79,6 +86,8 @@ public class ModBlocks {
         entries.add(MAGENTA_CONCRETE_SLAB);
         entries.add(YELLOW_CONCRETE_STAIRS);
         entries.add(YELLOW_CONCRETE_SLAB);
+        entries.add(LIME_CONCRETE_STAIRS);
+        entries.add(LIME_CONCRETE_SLAB);
     }
 
 

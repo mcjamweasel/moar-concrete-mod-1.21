@@ -12,5 +12,8 @@
   "block.moarconcrete.magenta_concrete_slab": "Magenta Concrete Slab",
 
   "block.moarconcrete.yellow_concrete_stairs": "Yellow Concrete Stairs",
-  "block.moarconcrete.yellow_concrete_slab": "Yellow Concrete Slab"
+  "block.moarconcrete.yellow_concrete_slab": "Yellow Concrete Slab",
+
+  "block.moarconcrete.lime_concrete_stairs": "Lime Concrete Stairs",
+  "block.moarconcrete.lime_concrete_slab": "Lime Concrete Slab"
 }
