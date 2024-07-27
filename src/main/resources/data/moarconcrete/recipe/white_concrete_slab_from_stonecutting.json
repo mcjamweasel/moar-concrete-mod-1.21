@@ -1,6 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingwhiteient": {
+  "ingredient": {
     "item": "minecraft:white_concrete"
   },
   "result": {

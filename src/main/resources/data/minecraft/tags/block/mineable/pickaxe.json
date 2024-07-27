@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "moarconcrete:red_concrete_stairs",
-    "moarconcrete:red_concrete_slab"
+    "moarconcrete:red_concrete_slab",
+    "moarconcrete:white_concrete_stairs",
+    "moarconcrete:white_concrete_slab"
   ]
 }
