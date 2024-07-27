@@ -17,16 +17,25 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.copy(Blocks.AMETHYST_BLOCK)));
 
 
-    //Stairs functions. Add one per colour.
+    //Stairs functions.
+    //Add one per colour.
     public static final Block RED_CONCRETE_STAIRS = registerBlock("red_concrete_stairs",
             new StairsBlock(Blocks.RED_CONCRETE.getDefaultState(),
                     AbstractBlock.Settings.copy(Blocks.RED_CONCRETE)));
 
+    public static final Block WHITE_CONCRETE_STAIRS = registerBlock("white_concrete_stairs",
+            new StairsBlock(Blocks.WHITE_CONCRETE.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
 
 
-    //Slab functions. Add one per colour.
+
+    //Slab functions.
+    //Add one per colour.
     public static final Block RED_CONCRETE_SLAB = registerBlock("red_concrete_slab",
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.RED_CONCRETE)));
+
+    public static final Block WHITE_CONCRETE_SLAB = registerBlock("white_concrete_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
 
 
 
@@ -47,6 +56,8 @@ public class ModBlocks {
         entries.add(RUBY_BLOCK);
         entries.add(RED_CONCRETE_STAIRS);
         entries.add(RED_CONCRETE_SLAB);
+        entries.add(WHITE_CONCRETE_STAIRS);
+        entries.add(WHITE_CONCRETE_SLAB);
     }
 
 

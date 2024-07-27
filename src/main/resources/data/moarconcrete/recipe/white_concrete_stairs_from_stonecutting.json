@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingwhiteient": {
+    "item": "minecraft:white_concrete"
+  },
+  "result": {
+    "count": 1,
+    "id": "moarconcrete:white_concrete_stairs"
+  }
+}
