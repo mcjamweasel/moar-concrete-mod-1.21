@@ -43,10 +43,25 @@ public class ModBlocks {
             new StairsBlock(Blocks.BLUE_CONCRETE.getDefaultState(),
                     AbstractBlock.Settings.copy(Blocks.BLUE_CONCRETE)));
 
-
     public static final Block LIGHT_BLUE_CONCRETE_STAIRS = registerBlock("light_blue_concrete_stairs",
             new StairsBlock(Blocks.LIGHT_BLUE_CONCRETE.getDefaultState(),
                     AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_CONCRETE)));
+
+    public static final Block PINK_CONCRETE_STAIRS = registerBlock("pink_concrete_stairs",
+            new StairsBlock(Blocks.PINK_CONCRETE.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE)));
+
+    public static final Block GRAY_CONCRETE_STAIRS = registerBlock("gray_concrete_stairs",
+            new StairsBlock(Blocks.GRAY_CONCRETE.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.GRAY_CONCRETE)));
+
+    public static final Block LIGHT_GRAY_CONCRETE_STAIRS = registerBlock("light_gray_concrete_stairs",
+            new StairsBlock(Blocks.LIGHT_GRAY_CONCRETE.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_CONCRETE)));
+
+    public static final Block CYAN_CONCRETE_STAIRS = registerBlock("cyan_concrete_stairs",
+            new StairsBlock(Blocks.CYAN_CONCRETE.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
 
 
     //Slab functions.
@@ -75,13 +90,24 @@ public class ModBlocks {
     public static final Block LIGHT_BLUE_CONCRETE_SLAB = registerBlock("light_blue_concrete_slab",
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_CONCRETE)));
 
+    public static final Block PINK_CONCRETE_SLAB = registerBlock("pink_concrete_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE)));
+
+    public static final Block GRAY_CONCRETE_SLAB = registerBlock("gray_concrete_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.GRAY_CONCRETE)));
+
+    public static final Block LIGHT_GRAY_CONCRETE_SLAB = registerBlock("light_gray_concrete_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_CONCRETE)));
+
+    public static final Block CYAN_CONCRETE_SLAB = registerBlock("cyan_concrete_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
 
 
+    //Registry methods
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(MoarConcrete.MOD_ID, name), block);
     }
-
 
     private static Item registerBlockItem(String name, Block block){
         return Registry.register(Registries.ITEM, Identifier.of(MoarConcrete.MOD_ID, name),
@@ -107,6 +133,14 @@ public class ModBlocks {
         entries.add(BLUE_CONCRETE_SLAB);
         entries.add(LIGHT_BLUE_CONCRETE_STAIRS);
         entries.add(LIGHT_BLUE_CONCRETE_SLAB);
+        entries.add(PINK_CONCRETE_STAIRS);
+        entries.add(PINK_CONCRETE_SLAB);
+        entries.add(GRAY_CONCRETE_STAIRS);
+        entries.add(GRAY_CONCRETE_SLAB);
+        entries.add(LIGHT_GRAY_CONCRETE_STAIRS);
+        entries.add(LIGHT_GRAY_CONCRETE_SLAB);
+        entries.add(CYAN_CONCRETE_STAIRS);
+        entries.add(CYAN_CONCRETE_SLAB);
     }
 
 
