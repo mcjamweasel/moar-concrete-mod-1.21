@@ -61,6 +61,22 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool cyanPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CYAN_CONCRETE);
         cyanPool.stairs(ModBlocks.CYAN_CONCRETE_STAIRS);
         cyanPool.slab(ModBlocks.CYAN_CONCRETE_SLAB);
+
+        BlockStateModelGenerator.BlockTexturePool purplePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_CONCRETE);
+        purplePool.stairs(ModBlocks.PURPLE_CONCRETE_STAIRS);
+        purplePool.slab(ModBlocks.PURPLE_CONCRETE_SLAB);
+
+        BlockStateModelGenerator.BlockTexturePool brownPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BROWN_CONCRETE);
+        brownPool.stairs(ModBlocks.BROWN_CONCRETE_STAIRS);
+        brownPool.slab(ModBlocks.BROWN_CONCRETE_SLAB);
+
+        BlockStateModelGenerator.BlockTexturePool greenPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GREEN_CONCRETE);
+        greenPool.stairs(ModBlocks.GREEN_CONCRETE_STAIRS);
+        greenPool.slab(ModBlocks.GREEN_CONCRETE_SLAB);
+
+        BlockStateModelGenerator.BlockTexturePool blackPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_CONCRETE);
+        blackPool.stairs(ModBlocks.BLACK_CONCRETE_STAIRS);
+        blackPool.slab(ModBlocks.BLACK_CONCRETE_SLAB);
     }
 
     @Override

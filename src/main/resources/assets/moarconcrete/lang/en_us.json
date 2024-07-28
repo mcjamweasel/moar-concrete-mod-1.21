@@ -32,6 +32,18 @@
   "block.moarconcrete.light_gray_concrete_stairs": "Light Gray Concrete Stairs",
   "block.moarconcrete.light_gray_concrete_slab": "Light Gray Concrete Slab",
 
+  "block.moarconcrete.purple_concrete_stairs": "Purple Concrete Stairs",
+  "block.moarconcrete.purple_concrete_slab": "Purple Concrete Slab",
+
+  "block.moarconcrete.brown_concrete_stairs": "Brown Concrete Stairs",
+  "block.moarconcrete.brown_concrete_slab": "Brown Concrete Slab",
+
+  "block.moarconcrete.green_concrete_stairs": "Green Concrete Stairs",
+  "block.moarconcrete.green_concrete_slab": "Green Concrete Slab",
+
+  "block.moarconcrete.black_concrete_stairs": "Black Concrete Stairs",
+  "block.moarconcrete.black_concrete_slab": "Black Concrete Slab",
+
   "block.moarconcrete.cyan_concrete_stairs": "Cyan Concrete Stairs",
   "block.moarconcrete.cyan_concrete_slab": "Cyan Concrete Slab"
 }

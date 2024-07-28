@@ -63,6 +63,22 @@ public class ModBlocks {
             new StairsBlock(Blocks.CYAN_CONCRETE.getDefaultState(),
                     AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
 
+    public static final Block PURPLE_CONCRETE_STAIRS = registerBlock("purple_concrete_stairs",
+            new StairsBlock(Blocks.PURPLE_CONCRETE.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.PURPLE_CONCRETE)));
+
+    public static final Block BROWN_CONCRETE_STAIRS = registerBlock("brown_concrete_stairs",
+            new StairsBlock(Blocks.BROWN_CONCRETE.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE)));
+
+    public static final Block GREEN_CONCRETE_STAIRS = registerBlock("green_concrete_stairs",
+            new StairsBlock(Blocks.GREEN_CONCRETE.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.GREEN_CONCRETE)));
+
+    public static final Block BLACK_CONCRETE_STAIRS = registerBlock("black_concrete_stairs",
+            new StairsBlock(Blocks.BLACK_CONCRETE.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE)));
+
 
     //Slab functions.
     //Add one per colour.
@@ -101,6 +117,18 @@ public class ModBlocks {
 
     public static final Block CYAN_CONCRETE_SLAB = registerBlock("cyan_concrete_slab",
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
+
+    public static final Block PURPLE_CONCRETE_SLAB = registerBlock("purple_concrete_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.PURPLE_CONCRETE)));
+
+    public static final Block BROWN_CONCRETE_SLAB = registerBlock("brown_concrete_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE)));
+
+    public static final Block GREEN_CONCRETE_SLAB = registerBlock("green_concrete_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.GREEN_CONCRETE)));
+
+    public static final Block BLACK_CONCRETE_SLAB = registerBlock("black_concrete_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE)));
 
 
     //Registry methods
@@ -141,6 +169,14 @@ public class ModBlocks {
         entries.add(LIGHT_GRAY_CONCRETE_SLAB);
         entries.add(CYAN_CONCRETE_STAIRS);
         entries.add(CYAN_CONCRETE_SLAB);
+        entries.add(PURPLE_CONCRETE_STAIRS);
+        entries.add(PURPLE_CONCRETE_SLAB);
+        entries.add(BROWN_CONCRETE_STAIRS);
+        entries.add(BROWN_CONCRETE_SLAB);
+        entries.add(GREEN_CONCRETE_STAIRS);
+        entries.add(GREEN_CONCRETE_SLAB);
+        entries.add(BLACK_CONCRETE_STAIRS);
+        entries.add(BLACK_CONCRETE_SLAB);
     }
 
 
