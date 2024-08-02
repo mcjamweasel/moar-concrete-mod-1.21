@@ -1,49 +1,65 @@
 {
   "block.moarconcrete.red_concrete_stairs": "Red Concrete Stairs",
   "block.moarconcrete.red_concrete_slab": "Red Concrete Slab",
+  "block.moarconcrete.red_concrete_wall": "Red Concrete Wall",
 
   "block.moarconcrete.white_concrete_stairs": "White Concrete Stairs",
   "block.moarconcrete.white_concrete_slab": "White Concrete Slab",
+  "block.moarconcrete.white_concrete_wall": "White Concrete Wall",
 
   "block.moarconcrete.orange_concrete_stairs": "Orange Concrete Stairs",
   "block.moarconcrete.orange_concrete_slab": "Orange Concrete Slab",
+  "block.moarconcrete.orange_concrete_wall": "Orange Concrete Wall",
 
   "block.moarconcrete.magenta_concrete_stairs": "Magenta Concrete Stairs",
   "block.moarconcrete.magenta_concrete_slab": "Magenta Concrete Slab",
+  "block.moarconcrete.magenta_concrete_wall": "Magenta Concrete Wall",
 
   "block.moarconcrete.yellow_concrete_stairs": "Yellow Concrete Stairs",
   "block.moarconcrete.yellow_concrete_slab": "Yellow Concrete Slab",
+  "block.moarconcrete.yellow_concrete_wall": "Yellow Concrete Wall",
 
   "block.moarconcrete.lime_concrete_stairs": "Lime Concrete Stairs",
   "block.moarconcrete.lime_concrete_slab": "Lime Concrete Slab",
+  "block.moarconcrete.lime_concrete_wall": "Lime Concrete Wall",
 
   "block.moarconcrete.blue_concrete_stairs": "Blue Concrete Stairs",
   "block.moarconcrete.blue_concrete_slab": "Blue Concrete Slab",
+  "block.moarconcrete.blue_concrete_wall": "Blue Concrete Wall",
 
   "block.moarconcrete.light_blue_concrete_stairs": "Light Blue Concrete Stairs",
   "block.moarconcrete.light_blue_concrete_slab": "Light Blue Concrete Slab",
+  "block.moarconcrete.light_blue_concrete_wall": "Light Blue Concrete Wall",
 
   "block.moarconcrete.pink_concrete_stairs": "Pink Concrete Stairs",
   "block.moarconcrete.pink_concrete_slab": "Pink Concrete Slab",
+  "block.moarconcrete.pink_concrete_wall": "Pink Concrete Wall",
 
   "block.moarconcrete.gray_concrete_stairs": "Gray Concrete Stairs",
   "block.moarconcrete.gray_concrete_slab": "Gray Concrete Slab",
+  "block.moarconcrete.gray_concrete_wall": "Gray Concrete Wall",
 
   "block.moarconcrete.light_gray_concrete_stairs": "Light Gray Concrete Stairs",
   "block.moarconcrete.light_gray_concrete_slab": "Light Gray Concrete Slab",
+  "block.moarconcrete.light_gray_concrete_wall": "Light Gray Concrete Wall",
 
   "block.moarconcrete.purple_concrete_stairs": "Purple Concrete Stairs",
   "block.moarconcrete.purple_concrete_slab": "Purple Concrete Slab",
+  "block.moarconcrete.purple_concrete_wall": "Purple Concrete Wall",
 
   "block.moarconcrete.brown_concrete_stairs": "Brown Concrete Stairs",
   "block.moarconcrete.brown_concrete_slab": "Brown Concrete Slab",
+  "block.moarconcrete.brown_concrete_wall": "Brown Concrete Wall",
 
   "block.moarconcrete.green_concrete_stairs": "Green Concrete Stairs",
   "block.moarconcrete.green_concrete_slab": "Green Concrete Slab",
+  "block.moarconcrete.green_concrete_wall": "Green Concrete Wall",
 
   "block.moarconcrete.black_concrete_stairs": "Black Concrete Stairs",
   "block.moarconcrete.black_concrete_slab": "Black Concrete Slab",
+  "block.moarconcrete.black_concrete_wall": "Black Concrete Wall",
 
   "block.moarconcrete.cyan_concrete_stairs": "Cyan Concrete Stairs",
-  "block.moarconcrete.cyan_concrete_slab": "Cyan Concrete Slab"
+  "block.moarconcrete.cyan_concrete_slab": "Cyan Concrete Slab",
+  "block.moarconcrete.cyan_concrete_wall": "Cyan Concrete Wall"
 }

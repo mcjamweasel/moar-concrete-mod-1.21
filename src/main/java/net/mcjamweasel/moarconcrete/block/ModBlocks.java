@@ -131,6 +131,57 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE)));
 
 
+    //Wall functions.
+    //Add one per colour.
+    public static final Block RED_CONCRETE_WALL = registerBlock("red_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.RED_CONCRETE)));
+
+    public static final Block WHITE_CONCRETE_WALL = registerBlock("white_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final Block ORANGE_CONCRETE_WALL = registerBlock("orange_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.ORANGE_CONCRETE)));
+
+    public static final Block MAGENTA_CONCRETE_WALL = registerBlock("magenta_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.MAGENTA_CONCRETE)));
+
+    public static final Block YELLOW_CONCRETE_WALL = registerBlock("yellow_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.YELLOW_CONCRETE)));
+
+    public static final Block LIME_CONCRETE_WALL = registerBlock("lime_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.LIME_CONCRETE)));
+
+    public static final Block BLUE_CONCRETE_WALL = registerBlock("blue_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BLUE_CONCRETE)));
+
+    public static final Block LIGHT_BLUE_CONCRETE_WALL = registerBlock("light_blue_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_CONCRETE)));
+
+    public static final Block PINK_CONCRETE_WALL = registerBlock("pink_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE)));
+
+    public static final Block GRAY_CONCRETE_WALL = registerBlock("gray_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.GRAY_CONCRETE)));
+
+    public static final Block LIGHT_GRAY_CONCRETE_WALL = registerBlock("light_gray_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_CONCRETE)));
+
+    public static final Block CYAN_CONCRETE_WALL = registerBlock("cyan_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
+
+    public static final Block PURPLE_CONCRETE_WALL = registerBlock("purple_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.PURPLE_CONCRETE)));
+
+    public static final Block BROWN_CONCRETE_WALL = registerBlock("brown_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE)));
+
+    public static final Block GREEN_CONCRETE_WALL = registerBlock("green_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.GREEN_CONCRETE)));
+
+    public static final Block BLACK_CONCRETE_WALL = registerBlock("black_concrete_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE)));
+
+    
     //Registry methods
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -177,6 +228,23 @@ public class ModBlocks {
         entries.add(GREEN_CONCRETE_SLAB);
         entries.add(BLACK_CONCRETE_STAIRS);
         entries.add(BLACK_CONCRETE_SLAB);
+
+        entries.add(RED_CONCRETE_WALL);
+        entries.add(WHITE_CONCRETE_WALL);
+        entries.add(ORANGE_CONCRETE_WALL);
+        entries.add(MAGENTA_CONCRETE_WALL);
+        entries.add(YELLOW_CONCRETE_WALL);
+        entries.add(LIME_CONCRETE_WALL);
+        entries.add(BLUE_CONCRETE_WALL);
+        entries.add(LIGHT_BLUE_CONCRETE_WALL);
+        entries.add(PINK_CONCRETE_WALL);
+        entries.add(GRAY_CONCRETE_WALL);
+        entries.add(LIGHT_GRAY_CONCRETE_WALL);
+        entries.add(CYAN_CONCRETE_WALL);
+        entries.add(PURPLE_CONCRETE_WALL);
+        entries.add(BROWN_CONCRETE_WALL);
+        entries.add(GREEN_CONCRETE_WALL);
+        entries.add(BLACK_CONCRETE_WALL);
     }
 
 
