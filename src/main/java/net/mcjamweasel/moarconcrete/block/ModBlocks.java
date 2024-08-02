@@ -196,55 +196,71 @@ public class ModBlocks {
 
     //Add an entry for each block to add the item.
     private static void addBLockToGroup(FabricItemGroupEntries entries){
-        entries.add(RED_CONCRETE_STAIRS);
-        entries.add(RED_CONCRETE_SLAB);
+
         entries.add(WHITE_CONCRETE_STAIRS);
         entries.add(WHITE_CONCRETE_SLAB);
-        entries.add(ORANGE_CONCRETE_STAIRS);
-        entries.add(ORANGE_CONCRETE_SLAB);
-        entries.add(MAGENTA_CONCRETE_STAIRS);
-        entries.add(MAGENTA_CONCRETE_SLAB);
-        entries.add(YELLOW_CONCRETE_STAIRS);
-        entries.add(YELLOW_CONCRETE_SLAB);
-        entries.add(LIME_CONCRETE_STAIRS);
-        entries.add(LIME_CONCRETE_SLAB);
-        entries.add(BLUE_CONCRETE_STAIRS);
-        entries.add(BLUE_CONCRETE_SLAB);
-        entries.add(LIGHT_BLUE_CONCRETE_STAIRS);
-        entries.add(LIGHT_BLUE_CONCRETE_SLAB);
-        entries.add(PINK_CONCRETE_STAIRS);
-        entries.add(PINK_CONCRETE_SLAB);
-        entries.add(GRAY_CONCRETE_STAIRS);
-        entries.add(GRAY_CONCRETE_SLAB);
+        entries.add(WHITE_CONCRETE_WALL);
+
         entries.add(LIGHT_GRAY_CONCRETE_STAIRS);
         entries.add(LIGHT_GRAY_CONCRETE_SLAB);
-        entries.add(CYAN_CONCRETE_STAIRS);
-        entries.add(CYAN_CONCRETE_SLAB);
-        entries.add(PURPLE_CONCRETE_STAIRS);
-        entries.add(PURPLE_CONCRETE_SLAB);
-        entries.add(BROWN_CONCRETE_STAIRS);
-        entries.add(BROWN_CONCRETE_SLAB);
-        entries.add(GREEN_CONCRETE_STAIRS);
-        entries.add(GREEN_CONCRETE_SLAB);
+        entries.add(LIGHT_GRAY_CONCRETE_WALL);
+
+        entries.add(GRAY_CONCRETE_STAIRS);
+        entries.add(GRAY_CONCRETE_SLAB);
+        entries.add(GRAY_CONCRETE_WALL);
+
         entries.add(BLACK_CONCRETE_STAIRS);
         entries.add(BLACK_CONCRETE_SLAB);
-
-        entries.add(RED_CONCRETE_WALL);
-        entries.add(WHITE_CONCRETE_WALL);
-        entries.add(ORANGE_CONCRETE_WALL);
-        entries.add(MAGENTA_CONCRETE_WALL);
-        entries.add(YELLOW_CONCRETE_WALL);
-        entries.add(LIME_CONCRETE_WALL);
-        entries.add(BLUE_CONCRETE_WALL);
-        entries.add(LIGHT_BLUE_CONCRETE_WALL);
-        entries.add(PINK_CONCRETE_WALL);
-        entries.add(GRAY_CONCRETE_WALL);
-        entries.add(LIGHT_GRAY_CONCRETE_WALL);
-        entries.add(CYAN_CONCRETE_WALL);
-        entries.add(PURPLE_CONCRETE_WALL);
-        entries.add(BROWN_CONCRETE_WALL);
-        entries.add(GREEN_CONCRETE_WALL);
         entries.add(BLACK_CONCRETE_WALL);
+
+        entries.add(BROWN_CONCRETE_STAIRS);
+        entries.add(BROWN_CONCRETE_SLAB);
+        entries.add(BROWN_CONCRETE_WALL);
+
+        entries.add(RED_CONCRETE_STAIRS);
+        entries.add(RED_CONCRETE_SLAB);
+        entries.add(RED_CONCRETE_WALL);
+
+        entries.add(ORANGE_CONCRETE_STAIRS);
+        entries.add(ORANGE_CONCRETE_SLAB);
+        entries.add(ORANGE_CONCRETE_WALL);
+
+        entries.add(YELLOW_CONCRETE_STAIRS);
+        entries.add(YELLOW_CONCRETE_SLAB);
+        entries.add(YELLOW_CONCRETE_WALL);
+
+        entries.add(LIME_CONCRETE_STAIRS);
+        entries.add(LIME_CONCRETE_SLAB);
+        entries.add(LIME_CONCRETE_WALL);
+
+        entries.add(GREEN_CONCRETE_STAIRS);
+        entries.add(GREEN_CONCRETE_SLAB);
+        entries.add(GREEN_CONCRETE_WALL);
+
+        entries.add(CYAN_CONCRETE_STAIRS);
+        entries.add(CYAN_CONCRETE_SLAB);
+        entries.add(CYAN_CONCRETE_WALL);
+
+        entries.add(LIGHT_BLUE_CONCRETE_STAIRS);
+        entries.add(LIGHT_BLUE_CONCRETE_SLAB);
+        entries.add(LIGHT_BLUE_CONCRETE_WALL);
+
+        entries.add(BLUE_CONCRETE_STAIRS);
+        entries.add(BLUE_CONCRETE_SLAB);
+        entries.add(BLUE_CONCRETE_WALL);
+
+        entries.add(PURPLE_CONCRETE_STAIRS);
+        entries.add(PURPLE_CONCRETE_SLAB);
+        entries.add(PURPLE_CONCRETE_WALL);
+
+        entries.add(MAGENTA_CONCRETE_STAIRS);
+        entries.add(MAGENTA_CONCRETE_SLAB);
+        entries.add(MAGENTA_CONCRETE_WALL);
+
+        entries.add(PINK_CONCRETE_STAIRS);
+        entries.add(PINK_CONCRETE_SLAB);
+        entries.add(PINK_CONCRETE_WALL);
+
     }
 
 

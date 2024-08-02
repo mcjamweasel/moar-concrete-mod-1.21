@@ -80,21 +80,21 @@ public class ModModelProvider extends FabricModelProvider {
 
 
         redPool.wall(ModBlocks.RED_CONCRETE_WALL);
-        redPool.wall(ModBlocks.BLUE_CONCRETE_WALL);
-        redPool.wall(ModBlocks.LIGHT_BLUE_CONCRETE_WALL);
-        redPool.wall(ModBlocks.WHITE_CONCRETE_WALL);
-        redPool.wall(ModBlocks.ORANGE_CONCRETE_WALL);
-        redPool.wall(ModBlocks.MAGENTA_CONCRETE_WALL);
-        redPool.wall(ModBlocks.LIME_CONCRETE_WALL);
-        redPool.wall(ModBlocks.YELLOW_CONCRETE_WALL);
-        redPool.wall(ModBlocks.PINK_CONCRETE_WALL);
-        redPool.wall(ModBlocks.GRAY_CONCRETE_WALL);
-        redPool.wall(ModBlocks.LIGHT_GRAY_CONCRETE_WALL);
-        redPool.wall(ModBlocks.CYAN_CONCRETE_WALL);
-        redPool.wall(ModBlocks.PURPLE_CONCRETE_WALL);
-        redPool.wall(ModBlocks.BROWN_CONCRETE_WALL);
-        redPool.wall(ModBlocks.GREEN_CONCRETE_WALL);
-        redPool.wall(ModBlocks.BLACK_CONCRETE_WALL);
+        bluePool.wall(ModBlocks.BLUE_CONCRETE_WALL);
+        lightBluePool.wall(ModBlocks.LIGHT_BLUE_CONCRETE_WALL);
+        whitePool.wall(ModBlocks.WHITE_CONCRETE_WALL);
+        orangePool.wall(ModBlocks.ORANGE_CONCRETE_WALL);
+        magentaPool.wall(ModBlocks.MAGENTA_CONCRETE_WALL);
+        limePool.wall(ModBlocks.LIME_CONCRETE_WALL);
+        yellowPool.wall(ModBlocks.YELLOW_CONCRETE_WALL);
+        pinkPool.wall(ModBlocks.PINK_CONCRETE_WALL);
+        grayPool.wall(ModBlocks.GRAY_CONCRETE_WALL);
+        lightGrayPool.wall(ModBlocks.LIGHT_GRAY_CONCRETE_WALL);
+        cyanPool.wall(ModBlocks.CYAN_CONCRETE_WALL);
+        purplePool.wall(ModBlocks.PURPLE_CONCRETE_WALL);
+        brownPool.wall(ModBlocks.BROWN_CONCRETE_WALL);
+        greenPool.wall(ModBlocks.GREEN_CONCRETE_WALL);
+        blackPool.wall(ModBlocks.BLACK_CONCRETE_WALL);
     }
 
     @Override
