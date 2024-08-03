@@ -103,6 +103,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, "orange_concrete_stairs");
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_CONCRETE_WALL, Blocks.ORANGE_CONCRETE);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_CONCRETE_WALL, Blocks.ORANGE_CONCRETE);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_CONCRETE_FENCE, 3)
+                .pattern("CIC")
+                .pattern("CIC")
+                .pattern("   ")
+                .input('C', Ingredient.ofItems(Items.ORANGE_CONCRETE))
+                .input('I', Ingredient.ofItems(Items.IRON_BARS))
+                .criterion(hasItem(Items.ORANGE_CONCRETE), conditionsFromItem(Items.ORANGE_CONCRETE))
+                .offerTo(exporter, "orange_concrete_fence");
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_CONCRETE_GATE, 1)
+                .pattern("ICI")
+                .pattern("ICI")
+                .pattern("   ")
+                .input('C', Ingredient.ofItems(Items.ORANGE_CONCRETE))
+                .input('I', Ingredient.ofItems(Items.IRON_BARS))
+                .criterion(hasItem(Items.ORANGE_CONCRETE), conditionsFromItem(Items.ORANGE_CONCRETE))
+                .offerTo(exporter, "orange_concrete_gate");
+
 
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_STAIRS, Blocks.MAGENTA_CONCRETE);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_SLAB, Blocks.MAGENTA_CONCRETE, 2);
@@ -116,6 +133,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, "magenta_concrete_stairs");
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_WALL, Blocks.MAGENTA_CONCRETE);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_WALL, Blocks.MAGENTA_CONCRETE);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_FENCE, 3)
+                .pattern("CIC")
+                .pattern("CIC")
+                .pattern("   ")
+                .input('C', Ingredient.ofItems(Items.MAGENTA_CONCRETE))
+                .input('I', Ingredient.ofItems(Items.IRON_BARS))
+                .criterion(hasItem(Items.MAGENTA_CONCRETE), conditionsFromItem(Items.MAGENTA_CONCRETE))
+                .offerTo(exporter, "magenta_concrete_fence");
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_GATE, 1)
+                .pattern("ICI")
+                .pattern("ICI")
+                .pattern("   ")
+                .input('C', Ingredient.ofItems(Items.MAGENTA_CONCRETE))
+                .input('I', Ingredient.ofItems(Items.IRON_BARS))
+                .criterion(hasItem(Items.MAGENTA_CONCRETE), conditionsFromItem(Items.MAGENTA_CONCRETE))
+                .offerTo(exporter, "magenta_concrete_gate");
 
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_CONCRETE_STAIRS, Blocks.LIME_CONCRETE);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_CONCRETE_SLAB, Blocks.LIME_CONCRETE, 2);

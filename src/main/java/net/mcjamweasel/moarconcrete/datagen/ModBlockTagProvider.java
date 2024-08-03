@@ -104,6 +104,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ORANGE_CONCRETE_WALL);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.ORANGE_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.ORANGE_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.ORANGE_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.ORANGE_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.ORANGE_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.ORANGE_CONCRETE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.MAGENTA_CONCRETE_STAIRS);
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.MAGENTA_CONCRETE_STAIRS);
@@ -117,6 +130,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGENTA_CONCRETE_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.MAGENTA_CONCRETE_WALL);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.MAGENTA_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.MAGENTA_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.MAGENTA_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.MAGENTA_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.MAGENTA_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.MAGENTA_CONCRETE_GATE);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.LIME_CONCRETE_STAIRS);

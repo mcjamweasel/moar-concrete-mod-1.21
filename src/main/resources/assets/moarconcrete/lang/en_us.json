@@ -8,14 +8,20 @@
   "block.moarconcrete.white_concrete_stairs": "White Concrete Stairs",
   "block.moarconcrete.white_concrete_slab": "White Concrete Slab",
   "block.moarconcrete.white_concrete_wall": "White Concrete Wall",
+  "block.moarconcrete.white_concrete_fence": "White Concrete Fence",
+  "block.moarconcrete.white_concrete_gate": "White Concrete Fence Gate",
 
   "block.moarconcrete.orange_concrete_stairs": "Orange Concrete Stairs",
   "block.moarconcrete.orange_concrete_slab": "Orange Concrete Slab",
   "block.moarconcrete.orange_concrete_wall": "Orange Concrete Wall",
+  "block.moarconcrete.orange_concrete_orange": "Orange Concrete Fence",
+  "block.moarconcrete.orange_concrete_gate": "Orange Concrete Fence Gate",
 
   "block.moarconcrete.magenta_concrete_stairs": "Magenta Concrete Stairs",
   "block.moarconcrete.magenta_concrete_slab": "Magenta Concrete Slab",
   "block.moarconcrete.magenta_concrete_wall": "Magenta Concrete Wall",
+  "block.moarconcrete.magenta_concrete_fence": "Magenta Concrete Fence",
+  "block.moarconcrete.magenta_concrete_gate": "Magenta Concrete Gate",
 
   "block.moarconcrete.yellow_concrete_stairs": "Yellow Concrete Stairs",
   "block.moarconcrete.yellow_concrete_slab": "Yellow Concrete Slab",

@@ -35,10 +35,14 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool orangePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_CONCRETE);
         orangePool.stairs(ModBlocks.ORANGE_CONCRETE_STAIRS);
         orangePool.slab(ModBlocks.ORANGE_CONCRETE_SLAB);
+        orangePool.fence(ModBlocks.ORANGE_CONCRETE_FENCE);
+        orangePool.fenceGate(ModBlocks.ORANGE_CONCRETE_GATE);
 
         BlockStateModelGenerator.BlockTexturePool magentaPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_CONCRETE);
         magentaPool.stairs(ModBlocks.MAGENTA_CONCRETE_STAIRS);
         magentaPool.slab(ModBlocks.MAGENTA_CONCRETE_SLAB);
+        magentaPool.fence(ModBlocks.MAGENTA_CONCRETE_FENCE);
+        magentaPool.fenceGate(ModBlocks.MAGENTA_CONCRETE_GATE);
 
         BlockStateModelGenerator.BlockTexturePool limePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_CONCRETE);
         limePool.stairs(ModBlocks.LIME_CONCRETE_STAIRS);
