@@ -199,6 +199,20 @@ public class ModBlocks {
     public static final Block MAGENTA_CONCRETE_GATE = registerBlock("magenta_concrete_gate",
             new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.MAGENTA_CONCRETE)));
 
+    public static final Block WHITE_CONCRETE_FENCE = registerBlock("white_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
+    public static final Block WHITE_CONCRETE_GATE = registerBlock("white_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final Block YELLOW_CONCRETE_FENCE = registerBlock("yellow_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.YELLOW_CONCRETE)));
+    public static final Block YELLOW_CONCRETE_GATE = registerBlock("yellow_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.YELLOW_CONCRETE)));
+
+    public static final Block LIME_CONCRETE_FENCE = registerBlock("lime_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.LIME_CONCRETE)));
+    public static final Block LIME_CONCRETE_GATE = registerBlock("lime_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.LIME_CONCRETE)));
 
     //Registry methods
     private static Block registerBlock(String name, Block block){
@@ -218,6 +232,8 @@ public class ModBlocks {
         entries.add(WHITE_CONCRETE_STAIRS);
         entries.add(WHITE_CONCRETE_SLAB);
         entries.add(WHITE_CONCRETE_WALL);
+        entries.add(WHITE_CONCRETE_FENCE);
+        entries.add(WHITE_CONCRETE_GATE);
 
         entries.add(LIGHT_GRAY_CONCRETE_STAIRS);
         entries.add(LIGHT_GRAY_CONCRETE_SLAB);
@@ -250,10 +266,14 @@ public class ModBlocks {
         entries.add(YELLOW_CONCRETE_STAIRS);
         entries.add(YELLOW_CONCRETE_SLAB);
         entries.add(YELLOW_CONCRETE_WALL);
+        entries.add(YELLOW_CONCRETE_FENCE);
+        entries.add(YELLOW_CONCRETE_GATE);
 
         entries.add(LIME_CONCRETE_STAIRS);
         entries.add(LIME_CONCRETE_SLAB);
         entries.add(LIME_CONCRETE_WALL);
+        entries.add(LIME_CONCRETE_FENCE);
+        entries.add(LIME_CONCRETE_GATE);
 
         entries.add(GREEN_CONCRETE_STAIRS);
         entries.add(GREEN_CONCRETE_SLAB);

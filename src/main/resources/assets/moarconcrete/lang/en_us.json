@@ -26,10 +26,14 @@
   "block.moarconcrete.yellow_concrete_stairs": "Yellow Concrete Stairs",
   "block.moarconcrete.yellow_concrete_slab": "Yellow Concrete Slab",
   "block.moarconcrete.yellow_concrete_wall": "Yellow Concrete Wall",
+  "block.moarconcrete.yellow_concrete_fence": "Yellow Concrete Fence",
+  "block.moarconcrete.yellow_concrete_gate": "Yellow Concrete Fence Gate",
 
   "block.moarconcrete.lime_concrete_stairs": "Lime Concrete Stairs",
   "block.moarconcrete.lime_concrete_slab": "Lime Concrete Slab",
   "block.moarconcrete.lime_concrete_wall": "Lime Concrete Wall",
+  "block.moarconcrete.lime_concrete_fence": "Lime Concrete Fence",
+  "block.moarconcrete.lime_concrete_gate": "Lime Concrete Fence Gate",
 
   "block.moarconcrete.blue_concrete_stairs": "Blue Concrete Stairs",
   "block.moarconcrete.blue_concrete_slab": "Blue Concrete Slab",

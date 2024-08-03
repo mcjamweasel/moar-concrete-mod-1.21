@@ -89,6 +89,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WHITE_CONCRETE_WALL);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.WHITE_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.WHITE_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.WHITE_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.WHITE_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.WHITE_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.WHITE_CONCRETE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.ORANGE_CONCRETE_STAIRS);
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.ORANGE_CONCRETE_STAIRS);
@@ -158,6 +171,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LIME_CONCRETE_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.LIME_CONCRETE_WALL);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.LIME_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.LIME_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.LIME_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.LIME_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.LIME_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.LIME_CONCRETE_GATE);
         
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.YELLOW_CONCRETE_STAIRS);
@@ -173,6 +199,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.YELLOW_CONCRETE_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.YELLOW_CONCRETE_WALL);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.YELLOW_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.YELLOW_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.YELLOW_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.YELLOW_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.YELLOW_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.YELLOW_CONCRETE_GATE);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.PINK_CONCRETE_STAIRS);

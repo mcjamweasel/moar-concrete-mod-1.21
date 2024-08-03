@@ -31,6 +31,8 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool whitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_CONCRETE);
         whitePool.stairs(ModBlocks.WHITE_CONCRETE_STAIRS);
         whitePool.slab(ModBlocks.WHITE_CONCRETE_SLAB);
+        whitePool.fence(ModBlocks.WHITE_CONCRETE_FENCE);
+        whitePool.fenceGate(ModBlocks.WHITE_CONCRETE_GATE);
 
         BlockStateModelGenerator.BlockTexturePool orangePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_CONCRETE);
         orangePool.stairs(ModBlocks.ORANGE_CONCRETE_STAIRS);
@@ -47,10 +49,14 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool limePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_CONCRETE);
         limePool.stairs(ModBlocks.LIME_CONCRETE_STAIRS);
         limePool.slab(ModBlocks.LIME_CONCRETE_SLAB);
+        limePool.fence(ModBlocks.LIME_CONCRETE_FENCE);
+        limePool.fenceGate(ModBlocks.LIME_CONCRETE_GATE);
 
         BlockStateModelGenerator.BlockTexturePool yellowPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_CONCRETE);
         yellowPool.stairs(ModBlocks.YELLOW_CONCRETE_STAIRS);
         yellowPool.slab(ModBlocks.YELLOW_CONCRETE_SLAB);
+        yellowPool.fence(ModBlocks.YELLOW_CONCRETE_FENCE);
+        yellowPool.fenceGate(ModBlocks.YELLOW_CONCRETE_GATE);
 
         BlockStateModelGenerator.BlockTexturePool pinkPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_CONCRETE);
         pinkPool.stairs(ModBlocks.PINK_CONCRETE_STAIRS);
