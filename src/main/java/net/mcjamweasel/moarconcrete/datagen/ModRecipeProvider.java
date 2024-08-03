@@ -61,6 +61,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, "red_concrete_stairs");
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_CONCRETE_WALL, Blocks.RED_CONCRETE);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_CONCRETE_WALL, Blocks.RED_CONCRETE);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_CONCRETE_FENCE, 3)
+                .pattern("CIC")
+                .pattern("CIC")
+                .pattern("   ")
+                .input('C', Ingredient.ofItems(Items.RED_CONCRETE))
+                .input('I', Ingredient.ofItems(Items.IRON_BARS))
+                .criterion(hasItem(Items.RED_CONCRETE), conditionsFromItem(Items.RED_CONCRETE))
+                .offerTo(exporter, "red_concrete_fence");
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_CONCRETE_GATE, 1)
+                .pattern("ICI")
+                .pattern("ICI")
+                .pattern("   ")
+                .input('C', Ingredient.ofItems(Items.RED_CONCRETE))
+                .input('I', Ingredient.ofItems(Items.IRON_BARS))
+                .criterion(hasItem(Items.RED_CONCRETE), conditionsFromItem(Items.RED_CONCRETE))
+                .offerTo(exporter, "red_concrete_gate");
 
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_STAIRS, Blocks.WHITE_CONCRETE);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_SLAB, Blocks.WHITE_CONCRETE, 2);

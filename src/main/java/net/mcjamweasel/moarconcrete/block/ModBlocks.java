@@ -181,7 +181,15 @@ public class ModBlocks {
     public static final Block BLACK_CONCRETE_WALL = registerBlock("black_concrete_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE)));
 
-    
+
+    //Fence functions.
+    //Add one per colour.
+    public static final Block RED_CONCRETE_FENCE = registerBlock("red_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.RED_CONCRETE)));
+    public static final Block RED_CONCRETE_GATE = registerBlock("red_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.RED_CONCRETE)));
+
+
     //Registry methods
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -220,6 +228,8 @@ public class ModBlocks {
         entries.add(RED_CONCRETE_STAIRS);
         entries.add(RED_CONCRETE_SLAB);
         entries.add(RED_CONCRETE_WALL);
+        entries.add(RED_CONCRETE_FENCE);
+        entries.add(RED_CONCRETE_GATE);
 
         entries.add(ORANGE_CONCRETE_STAIRS);
         entries.add(ORANGE_CONCRETE_SLAB);
