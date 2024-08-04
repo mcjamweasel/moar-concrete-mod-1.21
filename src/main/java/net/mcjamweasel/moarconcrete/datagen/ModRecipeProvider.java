@@ -15,7 +15,6 @@ import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
 
-    //private static final List<ItemConvertible> CONCRETE_CUTTABLE = List.of(Blocks.BLUE_CONCRETE);
 
     public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
