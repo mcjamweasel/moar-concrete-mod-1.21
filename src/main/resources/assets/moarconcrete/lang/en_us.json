@@ -38,10 +38,14 @@
   "block.moarconcrete.blue_concrete_stairs": "Blue Concrete Stairs",
   "block.moarconcrete.blue_concrete_slab": "Blue Concrete Slab",
   "block.moarconcrete.blue_concrete_wall": "Blue Concrete Wall",
+  "block.moarconcrete.blue_concrete_fence": "Blue Concrete Fence",
+  "block.moarconcrete.blue_concrete_gate": "Blue Concrete Fence Gate",
 
   "block.moarconcrete.light_blue_concrete_stairs": "Light Blue Concrete Stairs",
   "block.moarconcrete.light_blue_concrete_slab": "Light Blue Concrete Slab",
   "block.moarconcrete.light_blue_concrete_wall": "Light Blue Concrete Wall",
+  "block.moarconcrete.light_blue_concrete_fence": "Light Blue Concrete Fence",
+  "block.moarconcrete.light_blue_concrete_gate": "Light Blue Concrete Fence Gate",
 
   "block.moarconcrete.pink_concrete_stairs": "Pink Concrete Stairs",
   "block.moarconcrete.pink_concrete_slab": "Pink Concrete Slab",

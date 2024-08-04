@@ -214,6 +214,18 @@ public class ModBlocks {
     public static final Block LIME_CONCRETE_GATE = registerBlock("lime_concrete_gate",
             new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.LIME_CONCRETE)));
 
+    public static final Block BLUE_CONCRETE_FENCE = registerBlock("blue_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.BLUE_CONCRETE)));
+    public static final Block BLUE_CONCRETE_GATE = registerBlock("blue_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.BLUE_CONCRETE)));
+
+    public static final Block LIGHT_BLUE_CONCRETE_FENCE = registerBlock("light_blue_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_CONCRETE)));
+    public static final Block LIGHT_BLUE_CONCRETE_GATE = registerBlock("light_blue_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_CONCRETE)));
+
+
+
     //Registry methods
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -286,10 +298,14 @@ public class ModBlocks {
         entries.add(LIGHT_BLUE_CONCRETE_STAIRS);
         entries.add(LIGHT_BLUE_CONCRETE_SLAB);
         entries.add(LIGHT_BLUE_CONCRETE_WALL);
+        entries.add(LIGHT_BLUE_CONCRETE_FENCE);
+        entries.add(LIGHT_BLUE_CONCRETE_GATE);
 
         entries.add(BLUE_CONCRETE_STAIRS);
         entries.add(BLUE_CONCRETE_SLAB);
         entries.add(BLUE_CONCRETE_WALL);
+        entries.add(BLUE_CONCRETE_FENCE);
+        entries.add(BLUE_CONCRETE_GATE);
 
         entries.add(PURPLE_CONCRETE_STAIRS);
         entries.add(PURPLE_CONCRETE_SLAB);
