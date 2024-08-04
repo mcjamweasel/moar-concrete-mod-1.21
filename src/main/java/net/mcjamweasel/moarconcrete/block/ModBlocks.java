@@ -224,6 +224,16 @@ public class ModBlocks {
     public static final Block LIGHT_BLUE_CONCRETE_GATE = registerBlock("light_blue_concrete_gate",
             new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_CONCRETE)));
 
+    public static final Block PINK_CONCRETE_FENCE = registerBlock("pink_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE)));
+    public static final Block PINK_CONCRETE_GATE = registerBlock("pink_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE)));
+
+    public static final Block CYAN_CONCRETE_FENCE = registerBlock("cyan_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
+    public static final Block CYAN_CONCRETE_GATE = registerBlock("cyan_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
+
 
 
     //Registry methods
@@ -294,6 +304,8 @@ public class ModBlocks {
         entries.add(CYAN_CONCRETE_STAIRS);
         entries.add(CYAN_CONCRETE_SLAB);
         entries.add(CYAN_CONCRETE_WALL);
+        entries.add(CYAN_CONCRETE_FENCE);
+        entries.add(CYAN_CONCRETE_GATE);
 
         entries.add(LIGHT_BLUE_CONCRETE_STAIRS);
         entries.add(LIGHT_BLUE_CONCRETE_SLAB);
@@ -320,6 +332,8 @@ public class ModBlocks {
         entries.add(PINK_CONCRETE_STAIRS);
         entries.add(PINK_CONCRETE_SLAB);
         entries.add(PINK_CONCRETE_WALL);
+        entries.add(PINK_CONCRETE_FENCE);
+        entries.add(PINK_CONCRETE_GATE);
 
     }
 

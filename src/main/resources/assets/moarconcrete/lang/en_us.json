@@ -50,6 +50,8 @@
   "block.moarconcrete.pink_concrete_stairs": "Pink Concrete Stairs",
   "block.moarconcrete.pink_concrete_slab": "Pink Concrete Slab",
   "block.moarconcrete.pink_concrete_wall": "Pink Concrete Wall",
+  "block.moarconcrete.pink_concrete_fence": "Pink Concrete Fence",
+  "block.moarconcrete.pink_concrete_gate": "Pink Concrete Fence Gate",
 
   "block.moarconcrete.gray_concrete_stairs": "Gray Concrete Stairs",
   "block.moarconcrete.gray_concrete_slab": "Gray Concrete Slab",
@@ -77,5 +79,7 @@
 
   "block.moarconcrete.cyan_concrete_stairs": "Cyan Concrete Stairs",
   "block.moarconcrete.cyan_concrete_slab": "Cyan Concrete Slab",
-  "block.moarconcrete.cyan_concrete_wall": "Cyan Concrete Wall"
+  "block.moarconcrete.cyan_concrete_wall": "Cyan Concrete Wall",
+  "block.moarconcrete.cyan_concrete_fence": "Cyan Concrete Fence",
+  "block.moarconcrete.cyan_concrete_gate": "Cyan Concrete Gate"
 }

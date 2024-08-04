@@ -255,6 +255,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_CONCRETE_WALL);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.PINK_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.PINK_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.PINK_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.PINK_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.PINK_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.PINK_CONCRETE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.GRAY_CONCRETE_STAIRS);
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.GRAY_CONCRETE_STAIRS);
@@ -298,6 +311,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CYAN_CONCRETE_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.CYAN_CONCRETE_WALL);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.CYAN_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.CYAN_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.CYAN_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.CYAN_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.CYAN_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.CYAN_CONCRETE_GATE);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.PURPLE_CONCRETE_STAIRS);
