@@ -350,6 +350,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('I', Ingredient.ofItems(Items.IRON_BARS))
                 .criterion(hasItem(Items.CYAN_CONCRETE), conditionsFromItem(Items.CYAN_CONCRETE))
                 .offerTo(exporter, "cyan_concrete_gate");
+        offerShapelessRecipe(exporter, ModBlocks.CYAN_CONCRETE_BUTTON, Items.CYAN_CONCRETE, "redstone_blocks", 1);
 
     //Purple
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_CONCRETE_STAIRS, Blocks.PURPLE_CONCRETE);

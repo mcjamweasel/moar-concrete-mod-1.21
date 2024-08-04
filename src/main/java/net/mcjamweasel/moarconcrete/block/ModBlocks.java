@@ -235,6 +235,8 @@ public class ModBlocks {
             new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
 
 
+    public static final Block CYAN_CONCRETE_BUTTON = registerBlock("cyan_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
 
     //Registry methods
     private static Block registerBlock(String name, Block block){
@@ -337,11 +339,16 @@ public class ModBlocks {
 
     }
 
+    private static void addButtonToGroup(FabricItemGroupEntries entries){
+
+        entries.add(CYAN_CONCRETE_BUTTON);
+    }
 
     public static void registerModBlocks(){
         MoarConcrete.LOGGER.info("Registering ModBlocks for " + MoarConcrete.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(ModBlocks::addBLockToGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(ModBlocks::addButtonToGroup);
     }
 
 

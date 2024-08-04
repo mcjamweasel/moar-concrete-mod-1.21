@@ -324,6 +324,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CYAN_CONCRETE_GATE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.CYAN_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.CYAN_CONCRETE_BUTTON);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.CYAN_CONCRETE_BUTTON);
+        getOrCreateTagBuilder(BlockTags.BUTTONS)
+                .add(ModBlocks.CYAN_CONCRETE_BUTTON);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.PURPLE_CONCRETE_STAIRS);

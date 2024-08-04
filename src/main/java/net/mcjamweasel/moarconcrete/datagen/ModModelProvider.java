@@ -81,6 +81,7 @@ public class ModModelProvider extends FabricModelProvider {
         cyanPool.slab(ModBlocks.CYAN_CONCRETE_SLAB);
         cyanPool.fence(ModBlocks.CYAN_CONCRETE_FENCE);
         cyanPool.fenceGate(ModBlocks.CYAN_CONCRETE_GATE);
+        cyanPool.button(ModBlocks.CYAN_CONCRETE_BUTTON);
 
         BlockStateModelGenerator.BlockTexturePool purplePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_CONCRETE);
         purplePool.stairs(ModBlocks.PURPLE_CONCRETE_STAIRS);

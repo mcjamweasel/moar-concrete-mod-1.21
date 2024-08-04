@@ -81,5 +81,6 @@
   "block.moarconcrete.cyan_concrete_slab": "Cyan Concrete Slab",
   "block.moarconcrete.cyan_concrete_wall": "Cyan Concrete Wall",
   "block.moarconcrete.cyan_concrete_fence": "Cyan Concrete Fence",
-  "block.moarconcrete.cyan_concrete_gate": "Cyan Concrete Gate"
+  "block.moarconcrete.cyan_concrete_gate": "Cyan Concrete Gate",
+  "block.moarconcrete.cyan_concrete_button": "Cyan Concrete Button"
 }
