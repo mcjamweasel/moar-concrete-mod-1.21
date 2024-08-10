@@ -56,10 +56,14 @@
   "block.moarconcrete.gray_concrete_stairs": "Gray Concrete Stairs",
   "block.moarconcrete.gray_concrete_slab": "Gray Concrete Slab",
   "block.moarconcrete.gray_concrete_wall": "Gray Concrete Wall",
+  "block.moarconcrete.gray_concrete_fence": "Gray Concrete Fence",
+  "block.moarconcrete.gray_concrete_gate": "Gray Concrete Fence Gate",
 
   "block.moarconcrete.light_gray_concrete_stairs": "Light Gray Concrete Stairs",
   "block.moarconcrete.light_gray_concrete_slab": "Light Gray Concrete Slab",
   "block.moarconcrete.light_gray_concrete_wall": "Light Gray Concrete Wall",
+  "block.moarconcrete.light_gray_concrete_fence": "Light Gray Concrete Fence",
+  "block.moarconcrete.light_gray_concrete_gate": "Light Gray Concrete Fence Gate",
 
   "block.moarconcrete.purple_concrete_stairs": "Purple Concrete Stairs",
   "block.moarconcrete.purple_concrete_slab": "Purple Concrete Slab",

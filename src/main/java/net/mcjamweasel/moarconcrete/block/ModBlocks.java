@@ -234,6 +234,16 @@ public class ModBlocks {
     public static final Block CYAN_CONCRETE_GATE = registerBlock("cyan_concrete_gate",
             new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
 
+    public static final Block GRAY_CONCRETE_FENCE = registerBlock("gray_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.GRAY_CONCRETE)));
+    public static final Block GRAY_CONCRETE_GATE = registerBlock("gray_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.GRAY_CONCRETE)));
+
+    public static final Block LIGHT_GRAY_CONCRETE_FENCE = registerBlock("light_gray_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_CONCRETE)));
+    public static final Block LIGHT_GRAY_CONCRETE_GATE = registerBlock("light_gray_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_CONCRETE)));
+
 
     public static final Block CYAN_CONCRETE_BUTTON = registerBlock("cyan_concrete_button",
             new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
@@ -262,10 +272,14 @@ public class ModBlocks {
         entries.add(LIGHT_GRAY_CONCRETE_STAIRS);
         entries.add(LIGHT_GRAY_CONCRETE_SLAB);
         entries.add(LIGHT_GRAY_CONCRETE_WALL);
+        entries.add(LIGHT_GRAY_CONCRETE_FENCE);
+        entries.add(LIGHT_GRAY_CONCRETE_GATE);
 
         entries.add(GRAY_CONCRETE_STAIRS);
         entries.add(GRAY_CONCRETE_SLAB);
         entries.add(GRAY_CONCRETE_WALL);
+        entries.add(GRAY_CONCRETE_FENCE);
+        entries.add(GRAY_CONCRETE_GATE);
 
         entries.add(BLACK_CONCRETE_STAIRS);
         entries.add(BLACK_CONCRETE_SLAB);

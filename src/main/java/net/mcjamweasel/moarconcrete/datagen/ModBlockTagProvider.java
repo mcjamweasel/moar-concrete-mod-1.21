@@ -283,6 +283,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRAY_CONCRETE_WALL);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.GRAY_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.GRAY_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.GRAY_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.GRAY_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.GRAY_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.GRAY_CONCRETE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS);
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS);
@@ -296,6 +309,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_WALL);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.LIGHT_GRAY_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.LIGHT_GRAY_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.LIGHT_GRAY_CONCRETE_FENCE);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.LIGHT_GRAY_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.LIGHT_GRAY_CONCRETE_GATE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.LIGHT_GRAY_CONCRETE_GATE);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.CYAN_CONCRETE_STAIRS);
