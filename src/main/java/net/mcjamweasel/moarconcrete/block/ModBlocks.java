@@ -244,6 +244,11 @@ public class ModBlocks {
     public static final Block LIGHT_GRAY_CONCRETE_GATE = registerBlock("light_gray_concrete_gate",
             new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_CONCRETE)));
 
+    public static final Block PURPLE_CONCRETE_FENCE = registerBlock("purple_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.PURPLE_CONCRETE)));
+    public static final Block PURPLE_CONCRETE_GATE = registerBlock("purple_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.PURPLE_CONCRETE)));
+
 
     public static final Block CYAN_CONCRETE_BUTTON = registerBlock("cyan_concrete_button",
             new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
@@ -260,7 +265,7 @@ public class ModBlocks {
     }
 
 
-    //Add an entry for each block to add the item.
+    //Add an entry for each block to add the block to the creative menu coloured blocks category.
     private static void addBLockToGroup(FabricItemGroupEntries entries){
 
         entries.add(WHITE_CONCRETE_STAIRS);
@@ -338,6 +343,8 @@ public class ModBlocks {
         entries.add(PURPLE_CONCRETE_STAIRS);
         entries.add(PURPLE_CONCRETE_SLAB);
         entries.add(PURPLE_CONCRETE_WALL);
+        entries.add(PURPLE_CONCRETE_FENCE);
+        entries.add(PURPLE_CONCRETE_GATE);
 
         entries.add(MAGENTA_CONCRETE_STAIRS);
         entries.add(MAGENTA_CONCRETE_SLAB);
@@ -353,6 +360,7 @@ public class ModBlocks {
 
     }
 
+    //Add an entry for each block to add the block to the creative menu redstone blocks category.
     private static void addButtonToGroup(FabricItemGroupEntries entries){
 
         entries.add(CYAN_CONCRETE_BUTTON);
