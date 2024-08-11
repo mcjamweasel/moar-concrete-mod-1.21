@@ -249,9 +249,26 @@ public class ModBlocks {
     public static final Block PURPLE_CONCRETE_GATE = registerBlock("purple_concrete_gate",
             new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.PURPLE_CONCRETE)));
 
+    public static final Block BROWN_CONCRETE_FENCE = registerBlock("brown_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE)));
+    public static final Block BROWN_CONCRETE_GATE = registerBlock("brown_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE)));
 
+    public static final Block GREEN_CONCRETE_FENCE = registerBlock("green_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.GREEN_CONCRETE)));
+    public static final Block GREEN_CONCRETE_GATE = registerBlock("green_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.GREEN_CONCRETE)));
+
+    public static final Block BLACK_CONCRETE_FENCE = registerBlock("black_concrete_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE)));
+    public static final Block BLACK_CONCRETE_GATE = registerBlock("black_concrete_gate",
+            new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE)));
+
+
+    //Buttons
     public static final Block CYAN_CONCRETE_BUTTON = registerBlock("cyan_concrete_button",
             new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
+
 
     //Registry methods
     private static Block registerBlock(String name, Block block){
@@ -289,10 +306,14 @@ public class ModBlocks {
         entries.add(BLACK_CONCRETE_STAIRS);
         entries.add(BLACK_CONCRETE_SLAB);
         entries.add(BLACK_CONCRETE_WALL);
+        entries.add(BLACK_CONCRETE_FENCE);
+        entries.add(BLACK_CONCRETE_GATE);
 
         entries.add(BROWN_CONCRETE_STAIRS);
         entries.add(BROWN_CONCRETE_SLAB);
         entries.add(BROWN_CONCRETE_WALL);
+        entries.add(BROWN_CONCRETE_FENCE);
+        entries.add(BROWN_CONCRETE_GATE);
 
         entries.add(RED_CONCRETE_STAIRS);
         entries.add(RED_CONCRETE_SLAB);
@@ -321,6 +342,8 @@ public class ModBlocks {
         entries.add(GREEN_CONCRETE_STAIRS);
         entries.add(GREEN_CONCRETE_SLAB);
         entries.add(GREEN_CONCRETE_WALL);
+        entries.add(GRAY_CONCRETE_FENCE);
+        entries.add(GREEN_CONCRETE_GATE);
 
         entries.add(CYAN_CONCRETE_STAIRS);
         entries.add(CYAN_CONCRETE_SLAB);
