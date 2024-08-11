@@ -20,6 +20,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         super(output, registriesFuture);
     }
 
+
+//Creates the recipes for each block, one set per colour.
+//Stone cutting for stairs, slabs, walls.
+//Crafting table for all.
     @Override
     public void generate(RecipeExporter exporter) {
     //Blue

@@ -13,8 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    //Stairs functions.
-    //Add one per colour.
+//Stairs functions.
     public static final Block RED_CONCRETE_STAIRS = registerBlock("red_concrete_stairs",
             new StairsBlock(Blocks.RED_CONCRETE.getDefaultState(),
                     AbstractBlock.Settings.copy(Blocks.RED_CONCRETE)));
@@ -80,8 +79,7 @@ public class ModBlocks {
                     AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE)));
 
 
-    //Slab functions.
-    //Add one per colour.
+//Slab functions.
     public static final Block RED_CONCRETE_SLAB = registerBlock("red_concrete_slab",
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.RED_CONCRETE)));
 
@@ -131,8 +129,7 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE)));
 
 
-    //Wall functions.
-    //Add one per colour.
+//Wall functions.
     public static final Block RED_CONCRETE_WALL = registerBlock("red_concrete_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.RED_CONCRETE)));
 
@@ -182,8 +179,7 @@ public class ModBlocks {
             new WallBlock(AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE)));
 
 
-    //Fence functions.
-    //Add one pair per colour.
+//Fence & Gate functions.
     public static final Block RED_CONCRETE_FENCE = registerBlock("red_concrete_fence",
             new FenceBlock(AbstractBlock.Settings.copy(Blocks.RED_CONCRETE)));
     public static final Block RED_CONCRETE_GATE = registerBlock("red_concrete_gate",
@@ -265,16 +261,17 @@ public class ModBlocks {
             new FenceGateBlock(WoodType.MANGROVE, AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE)));
 
 
-    //Buttons
+//Button functions
     public static final Block CYAN_CONCRETE_BUTTON = registerBlock("cyan_concrete_button",
             new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
 
 
-    //Registry methods
+//Registry methods
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(MoarConcrete.MOD_ID, name), block);
     }
+
 
     private static Item registerBlockItem(String name, Block block){
         return Registry.register(Registries.ITEM, Identifier.of(MoarConcrete.MOD_ID, name),
@@ -282,7 +279,7 @@ public class ModBlocks {
     }
 
 
-    //Add an entry for each block to add the block to the creative menu coloured blocks category.
+//Add an entry for each block to add the block to the creative menu coloured blocks category.
     private static void addBLockToGroup(FabricItemGroupEntries entries){
 
         entries.add(WHITE_CONCRETE_STAIRS);
@@ -342,7 +339,7 @@ public class ModBlocks {
         entries.add(GREEN_CONCRETE_STAIRS);
         entries.add(GREEN_CONCRETE_SLAB);
         entries.add(GREEN_CONCRETE_WALL);
-        entries.add(GRAY_CONCRETE_FENCE);
+        entries.add(GREEN_CONCRETE_FENCE);
         entries.add(GREEN_CONCRETE_GATE);
 
         entries.add(CYAN_CONCRETE_STAIRS);
@@ -380,21 +377,21 @@ public class ModBlocks {
         entries.add(PINK_CONCRETE_WALL);
         entries.add(PINK_CONCRETE_FENCE);
         entries.add(PINK_CONCRETE_GATE);
-
     }
 
-    //Add an entry for each block to add the block to the creative menu redstone blocks category.
+
+//Add an entry for each block to add the block to the creative menu redstone blocks category.
     private static void addButtonToGroup(FabricItemGroupEntries entries){
 
         entries.add(CYAN_CONCRETE_BUTTON);
     }
 
+
+//Registers the blocks to the creative menus.
     public static void registerModBlocks(){
         MoarConcrete.LOGGER.info("Registering ModBlocks for " + MoarConcrete.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(ModBlocks::addBLockToGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(ModBlocks::addButtonToGroup);
     }
-
-
 }
