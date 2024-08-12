@@ -13,9 +13,6 @@ public class MoarConcrete implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-
-		//ModItems.registerModItems();
-
 		ModBlocks.registerModBlocks();
 	}
 }

@@ -262,8 +262,54 @@ public class ModBlocks {
 
 
 //Button functions
+    public static final Block WHITE_CONCRETE_BUTTON = registerBlock("white_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final Block LIGHT_GRAY_CONCRETE_BUTTON = registerBlock("light_gray_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_CONCRETE)));
+
+    public static final Block GRAY_CONCRETE_BUTTON = registerBlock("gray_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.GRAY_CONCRETE)));
+
+    public static final Block BLACK_CONCRETE_BUTTON = registerBlock("black_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE)));
+
+    public static final Block BROWN_CONCRETE_BUTTON = registerBlock("brown_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE)));
+
+    public static final Block RED_CONCRETE_BUTTON = registerBlock("red_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.RED_CONCRETE)));
+
+    public static final Block ORANGE_CONCRETE_BUTTON = registerBlock("orange_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.ORANGE_CONCRETE)));
+
+    public static final Block YELLOW_CONCRETE_BUTTON = registerBlock("yellow_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.YELLOW_CONCRETE)));
+
+    public static final Block LIME_CONCRETE_BUTTON = registerBlock("lime_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.LIME_CONCRETE)));
+
+    public static final Block GREEN_CONCRETE_BUTTON = registerBlock("green_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.GREEN_CONCRETE)));
+
     public static final Block CYAN_CONCRETE_BUTTON = registerBlock("cyan_concrete_button",
             new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE)));
+
+    public static final Block LIGHT_BLUE_CONCRETE_BUTTON = registerBlock("light_blue_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_CONCRETE)));
+
+    public static final Block BLUE_CONCRETE_BUTTON = registerBlock("blue_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.BLUE_CONCRETE)));
+
+    public static final Block PURPLE_CONCRETE_BUTTON = registerBlock("purple_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.PURPLE_CONCRETE)));
+
+    public static final Block MAGENTA_CONCRETE_BUTTON = registerBlock("magenta_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.MAGENTA_CONCRETE)));
+
+    public static final Block PINK_CONCRETE_BUTTON = registerBlock("pink_concrete_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE)));
+
 
 
 //Registry methods
@@ -383,7 +429,23 @@ public class ModBlocks {
 //Add an entry for each block to add the block to the creative menu redstone blocks category.
     private static void addButtonToGroup(FabricItemGroupEntries entries){
 
+    //Buttons
+        entries.add(WHITE_CONCRETE_BUTTON);
+        entries.add(LIGHT_GRAY_CONCRETE_BUTTON);
+        entries.add(GRAY_CONCRETE_BUTTON);
+        entries.add(BLACK_CONCRETE_BUTTON);
+        entries.add(BROWN_CONCRETE_BUTTON);
+        entries.add(RED_CONCRETE_BUTTON);
+        entries.add(ORANGE_CONCRETE_BUTTON);
+        entries.add(YELLOW_CONCRETE_BUTTON);
+        entries.add(LIME_CONCRETE_BUTTON);
+        entries.add(GREEN_CONCRETE_BUTTON);
         entries.add(CYAN_CONCRETE_BUTTON);
+        entries.add(LIGHT_BLUE_CONCRETE_BUTTON);
+        entries.add(BLUE_CONCRETE_BUTTON);
+        entries.add(PURPLE_CONCRETE_BUTTON);
+        entries.add(MAGENTA_CONCRETE_BUTTON);
+        entries.add(PINK_CONCRETE_BUTTON);
     }
 
 

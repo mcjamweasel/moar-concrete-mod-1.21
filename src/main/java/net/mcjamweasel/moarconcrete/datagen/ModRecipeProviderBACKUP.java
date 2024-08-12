@@ -15,10 +15,10 @@ import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModRecipeProvider extends FabricRecipeProvider {
+public class ModRecipeProviderBACKUP extends FabricRecipeProvider {
 
 
-    public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
+    public ModRecipeProviderBACKUP(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }
 

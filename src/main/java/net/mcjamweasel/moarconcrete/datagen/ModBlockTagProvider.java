@@ -97,7 +97,23 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACK_CONCRETE_SLAB)
                 .add(ModBlocks.BLACK_CONCRETE_WALL)
                 .add(ModBlocks.BLACK_CONCRETE_FENCE)
-                .add(ModBlocks.BLACK_CONCRETE_GATE);
+                .add(ModBlocks.BLACK_CONCRETE_GATE)
+                .add(ModBlocks.BLUE_CONCRETE_BUTTON)
+                .add(ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON)
+                .add(ModBlocks.RED_CONCRETE_BUTTON)
+                .add(ModBlocks.WHITE_CONCRETE_BUTTON)
+                .add(ModBlocks.ORANGE_CONCRETE_BUTTON)
+                .add(ModBlocks.MAGENTA_CONCRETE_BUTTON)
+                .add(ModBlocks.LIME_CONCRETE_BUTTON)
+                .add(ModBlocks.YELLOW_CONCRETE_BUTTON)
+                .add(ModBlocks.PINK_CONCRETE_BUTTON)
+                .add(ModBlocks.GRAY_CONCRETE_BUTTON)
+                .add(ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON)
+                .add(ModBlocks.CYAN_CONCRETE_BUTTON)
+                .add(ModBlocks.PURPLE_CONCRETE_BUTTON)
+                .add(ModBlocks.BROWN_CONCRETE_BUTTON)
+                .add(ModBlocks.GREEN_CONCRETE_BUTTON)
+                .add(ModBlocks.BLACK_CONCRETE_BUTTON);
 
 
     //Needs Stone Tool
@@ -181,10 +197,26 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACK_CONCRETE_SLAB)
                 .add(ModBlocks.BLACK_CONCRETE_WALL)
                 .add(ModBlocks.BLACK_CONCRETE_FENCE)
-                .add(ModBlocks.BLACK_CONCRETE_GATE);
+                .add(ModBlocks.BLACK_CONCRETE_GATE)
+                .add(ModBlocks.BLUE_CONCRETE_BUTTON)
+                .add(ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON)
+                .add(ModBlocks.RED_CONCRETE_BUTTON)
+                .add(ModBlocks.WHITE_CONCRETE_BUTTON)
+                .add(ModBlocks.ORANGE_CONCRETE_BUTTON)
+                .add(ModBlocks.MAGENTA_CONCRETE_BUTTON)
+                .add(ModBlocks.LIME_CONCRETE_BUTTON)
+                .add(ModBlocks.YELLOW_CONCRETE_BUTTON)
+                .add(ModBlocks.PINK_CONCRETE_BUTTON)
+                .add(ModBlocks.GRAY_CONCRETE_BUTTON)
+                .add(ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON)
+                .add(ModBlocks.CYAN_CONCRETE_BUTTON)
+                .add(ModBlocks.PURPLE_CONCRETE_BUTTON)
+                .add(ModBlocks.BROWN_CONCRETE_BUTTON)
+                .add(ModBlocks.GREEN_CONCRETE_BUTTON)
+                .add(ModBlocks.BLACK_CONCRETE_BUTTON);
 
 
-    //Walls
+    //Wall tags
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.BLUE_CONCRETE_WALL)
                 .add(ModBlocks.LIGHT_BLUE_CONCRETE_WALL)
@@ -204,7 +236,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACK_CONCRETE_WALL);
 
 
-    //Fences
+    //Fence tags
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.BLUE_CONCRETE_FENCE)
                 .add(ModBlocks.LIGHT_BLUE_CONCRETE_FENCE)
@@ -224,7 +256,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACK_CONCRETE_FENCE);
 
 
-    //Gates
+    //Gate tags
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.BLUE_CONCRETE_GATE)
                 .add(ModBlocks.LIGHT_BLUE_CONCRETE_GATE)
@@ -244,12 +276,24 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACK_CONCRETE_GATE);
 
 
-    //Buttons
-        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.CYAN_CONCRETE_BUTTON);
-        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.CYAN_CONCRETE_BUTTON);
+    //Button tags
         getOrCreateTagBuilder(BlockTags.BUTTONS)
-                .add(ModBlocks.CYAN_CONCRETE_BUTTON);
+                .add(ModBlocks.BLUE_CONCRETE_BUTTON)
+                .add(ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON)
+                .add(ModBlocks.RED_CONCRETE_BUTTON)
+                .add(ModBlocks.WHITE_CONCRETE_BUTTON)
+                .add(ModBlocks.ORANGE_CONCRETE_BUTTON)
+                .add(ModBlocks.MAGENTA_CONCRETE_BUTTON)
+                .add(ModBlocks.LIME_CONCRETE_BUTTON)
+                .add(ModBlocks.YELLOW_CONCRETE_BUTTON)
+                .add(ModBlocks.PINK_CONCRETE_BUTTON)
+                .add(ModBlocks.GRAY_CONCRETE_BUTTON)
+                .add(ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON)
+                .add(ModBlocks.CYAN_CONCRETE_BUTTON)
+                .add(ModBlocks.PURPLE_CONCRETE_BUTTON)
+                .add(ModBlocks.BROWN_CONCRETE_BUTTON)
+                .add(ModBlocks.GREEN_CONCRETE_BUTTON)
+                .add(ModBlocks.BLACK_CONCRETE_BUTTON);
+        
     }
 }
