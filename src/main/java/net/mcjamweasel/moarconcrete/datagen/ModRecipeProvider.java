@@ -497,36 +497,51 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_STAIRS, Blocks.BLACK_CONCRETE);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_SLAB, Blocks.BLACK_CONCRETE, 2);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_SLAB, Blocks.BLACK_CONCRETE);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_STAIRS, 4)
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_WALL, Blocks.BLACK_CONCRETE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_WALL, Blocks.BLACK_CONCRETE);
+        concreteStairRecipe(exporter, ModBlocks.BLACK_CONCRETE_STAIRS, Items.BLACK_CONCRETE);
+        concreteFenceRecipe(exporter, ModBlocks.BLACK_CONCRETE_FENCE, Items.BLACK_CONCRETE);
+        concreteGateRecipe(exporter, ModBlocks.BLACK_CONCRETE_GATE, Items.BLACK_CONCRETE);
+        concreteButtonRecipe(exporter, ModBlocks.BLACK_CONCRETE_BUTTON, Items.BLACK_CONCRETE);
+
+    }
+
+
+//Function to create stair recipes for concrete. Makes the recipe builder code less complex.
+    public static void concreteStairRecipe (RecipeExporter exporter, ItemConvertible output, ItemConvertible input) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, 4)
                 .pattern("C  ")
                 .pattern("CC ")
                 .pattern("CCC")
-                .input('C', Ingredient.ofItems(Items.BLACK_CONCRETE))
-                .criterion(hasItem(Items.BLACK_CONCRETE), conditionsFromItem(Items.BLACK_CONCRETE))
-                .offerTo(exporter, "black_concrete_stairs");
-        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_WALL, Blocks.BLACK_CONCRETE);
-        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_WALL, Blocks.BLACK_CONCRETE);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_FENCE, 3)
+                .input('C', Ingredient.ofItems(input))
+                .criterion(hasItem(input), conditionsFromItem(input))
+                .offerTo(exporter, convertBetween(output, input));
+    }
+
+
+//Function to create fence recipes for concrete. Makes the recipe builder code less complex.
+    public static void concreteFenceRecipe (RecipeExporter exporter, ItemConvertible output, ItemConvertible input) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, 3)
                 .pattern("CIC")
                 .pattern("CIC")
                 .pattern("   ")
-                .input('C', Ingredient.ofItems(Items.BLACK_CONCRETE))
+                .input('C', Ingredient.ofItems(input))
                 .input('I', Ingredient.ofItems(Items.IRON_BARS))
-                .criterion(hasItem(Items.BLACK_CONCRETE), conditionsFromItem(Items.BLACK_CONCRETE))
-                .offerTo(exporter, "black_concrete_fence");
-        /*ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_GATE, 1)
+                .criterion(hasItem(input), conditionsFromItem(input))
+                .offerTo(exporter, convertBetween(output, input));
+    }
+
+
+//Function to create fence gate recipes for concrete. Makes the recipe builder code less complex.
+    public static void concreteGateRecipe(RecipeExporter exporter, ItemConvertible output, ItemConvertible input) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, 1)
                 .pattern("ICI")
                 .pattern("ICI")
                 .pattern("   ")
-                .input('C', Ingredient.ofItems(Items.BLACK_CONCRETE))
+                .input('C', Ingredient.ofItems(input))
                 .input('I', Ingredient.ofItems(Items.IRON_BARS))
-                .criterion(hasItem(Items.BLACK_CONCRETE), conditionsFromItem(Items.BLACK_CONCRETE))
-                .offerTo(exporter, "black_concrete_gate");
-        */
-        concreteButtonRecipe(exporter, ModBlocks.BLACK_CONCRETE_BUTTON, Items.BLACK_CONCRETE);
-
-        concreteGateRecipe(exporter, ModBlocks.BLACK_CONCRETE_GATE, Items.BLACK_CONCRETE);
-
+                .criterion(hasItem(input), conditionsFromItem(input))
+                .offerTo(exporter, convertBetween(output, input));
     }
 
 
@@ -535,18 +550,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, output, 1)
                 .input(input)
                 .group("concrete_buttons")
-                .criterion(hasItem(input), conditionsFromItem(input))
-                .offerTo(exporter, convertBetween(output, input));
-    }
-
-
-    public static void concreteGateRecipe(RecipeExporter exporter, ItemConvertible output, ItemConvertible input) {
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, 1)
-                .pattern("ICI")
-                .pattern("ICI")
-                .pattern("   ")
-                .input('C', Ingredient.ofItems(input))
-                .input('I', Ingredient.ofItems(Items.IRON_BARS))
                 .criterion(hasItem(input), conditionsFromItem(input))
                 .offerTo(exporter, convertBetween(output, input));
     }
