@@ -298,9 +298,5 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_CONCRETE_BUTTON);
 
 
-    //Bricks tags. Required?
-        //getOrCreateTagBuilder(BlockTags.STONE_BRICKS)
-                //.add(ModBlocks.WHITE_CONCRETE_BRICKS);
-
     }
 }
