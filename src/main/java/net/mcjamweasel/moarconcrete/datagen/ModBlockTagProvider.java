@@ -301,8 +301,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     //Bricks tags. Required?
         //getOrCreateTagBuilder(BlockTags.STONE_BRICKS)
                 //.add(ModBlocks.WHITE_CONCRETE_BRICKS);
-    //Panel tags
-        //getOrCreateTagBuilder(BlockTags)
-                //.add(ModBlocks.WHITE_CONCRETE_PANEL);
+
     }
 }
