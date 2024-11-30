@@ -1,0 +1,46 @@
+package net.mcjamweasel.moarconcrete.datagen;
+
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.mcjamweasel.moarconcrete.block.ModBlocks;
+import net.minecraft.block.Blocks;
+import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.recipe.book.RecipeCategory;
+import net.minecraft.registry.RegistryWrapper;
+
+import java.util.concurrent.CompletableFuture;
+
+public class ModRecipeProviderEdit extends FabricRecipeProvider {
+
+
+    public ModRecipeProviderEdit(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
+        super(output, registriesFuture);
+    }
+
+
+    //Creates the recipes for each block, one set per colour.
+//Stone cutting for stairs, slabs, walls.
+//Crafting table for all.
+    //@Override
+    //public void generate(RecipeExporter exporter) {
+    protected RecipeGenerator getRecipeGenerator(RegistryWrapper.WrapperLookup registries, RecipeExporter exporter) {
+        return new RecipeGenerator(registries, exporter) {
+            @Override
+            public void generate() {
+
+                //White
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_STAIRS, Blocks.WHITE_CONCRETE);
+                offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_SLAB, Blocks.WHITE_CONCRETE, 2);
+                offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_SLAB, Blocks.WHITE_CONCRETE);
+                offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_WALL, Blocks.WHITE_CONCRETE);
+                offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_WALL, Blocks.WHITE_CONCRETE);
+                //concreteStairRecipe(exporter, ModBlocks.WHITE_CONCRETE_STAIRS, Items.WHITE_CONCRETE);
+                //concreteFenceRecipe(exporter, ModBlocks.WHITE_CONCRETE_FENCE, Items.WHITE_CONCRETE);
+                //concreteGateRecipe(exporter, ModBlocks.WHITE_CONCRETE_GATE, Items.WHITE_CONCRETE);
+                //concreteButtonRecipe(exporter, ModBlocks.WHITE_CONCRETE_BUTTON, Items.WHITE_CONCRETE);
+
+            }
+
+        };
+    }
+}

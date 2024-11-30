@@ -116,5 +116,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PURPLE_CONCRETE_BUTTON);
         addDrop(ModBlocks.MAGENTA_CONCRETE_BUTTON);
         addDrop(ModBlocks.PINK_CONCRETE_BUTTON);
+
+        //addDrop(ModBlocks.WHITE_CONCRETE_BRICKS);
     }
 }
