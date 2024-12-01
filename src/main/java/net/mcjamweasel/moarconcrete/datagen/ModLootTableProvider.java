@@ -49,6 +49,23 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MAGENTA_CONCRETE_SLAB, slabDrops(ModBlocks.MAGENTA_CONCRETE_SLAB));
         addDrop(ModBlocks.PINK_CONCRETE_SLAB, slabDrops(ModBlocks.PINK_CONCRETE_SLAB));
 
+        addDrop(ModBlocks.WHITE_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.WHITE_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.LIGHT_GRAY_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.GRAY_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.GRAY_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.BLACK_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.BLACK_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.BROWN_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.BROWN_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.RED_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.RED_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.ORANGE_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.ORANGE_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.YELLOW_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.YELLOW_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.LIME_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.LIME_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.GREEN_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.GREEN_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.CYAN_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.CYAN_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.LIGHT_BLUE_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.BLUE_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.BLUE_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.PURPLE_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.PURPLE_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.MAGENTA_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.MAGENTA_CONCRETE_BRICK_SLABS));
+        addDrop(ModBlocks.PINK_CONCRETE_BRICK_SLABS, slabDrops(ModBlocks.PINK_CONCRETE_BRICK_SLABS));
+
         addDrop(ModBlocks.WHITE_CONCRETE_WALL);
         addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_WALL);
         addDrop(ModBlocks.GRAY_CONCRETE_WALL);
@@ -133,6 +150,23 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PURPLE_CONCRETE_BRICKS);
         addDrop(ModBlocks.MAGENTA_CONCRETE_BRICKS);
         addDrop(ModBlocks.PINK_CONCRETE_BRICKS);
+
+        addDrop(ModBlocks.WHITE_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.GRAY_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.BLACK_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.BROWN_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.RED_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.ORANGE_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.YELLOW_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.LIME_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.GREEN_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.CYAN_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.BLUE_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.PURPLE_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.MAGENTA_CONCRETE_BRICK_SLABS);
+        addDrop(ModBlocks.PINK_CONCRETE_BRICK_SLABS);
 
     }
 }

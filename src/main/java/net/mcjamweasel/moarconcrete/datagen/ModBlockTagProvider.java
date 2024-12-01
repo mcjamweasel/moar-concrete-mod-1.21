@@ -25,6 +25,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WHITE_CONCRETE_GATE)
                 .add(ModBlocks.WHITE_CONCRETE_BUTTON)
                 .add(ModBlocks.WHITE_CONCRETE_BRICKS)
+                .add(ModBlocks.WHITE_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS)
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB)
@@ -33,6 +34,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_GATE)
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON)
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_BRICKS)
+                .add(ModBlocks.LIGHT_GRAY_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.GRAY_CONCRETE_STAIRS)
                 .add(ModBlocks.GRAY_CONCRETE_SLAB)
@@ -41,6 +43,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRAY_CONCRETE_GATE)
                 .add(ModBlocks.GRAY_CONCRETE_BUTTON)
                 .add(ModBlocks.GRAY_CONCRETE_BRICKS)
+                .add(ModBlocks.GRAY_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.BLACK_CONCRETE_STAIRS)
                 .add(ModBlocks.BLACK_CONCRETE_SLAB)
@@ -49,6 +52,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACK_CONCRETE_GATE)
                 .add(ModBlocks.BLACK_CONCRETE_BUTTON)
                 .add(ModBlocks.BLACK_CONCRETE_BRICKS)
+                .add(ModBlocks.BLACK_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.BROWN_CONCRETE_STAIRS)
                 .add(ModBlocks.BROWN_CONCRETE_SLAB)
@@ -57,6 +61,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BROWN_CONCRETE_GATE)
                 .add(ModBlocks.BROWN_CONCRETE_BUTTON)
                 .add(ModBlocks.BROWN_CONCRETE_BRICKS)
+                .add(ModBlocks.BROWN_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.RED_CONCRETE_STAIRS)
                 .add(ModBlocks.RED_CONCRETE_SLAB)
@@ -65,6 +70,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RED_CONCRETE_GATE)
                 .add(ModBlocks.RED_CONCRETE_BUTTON)
                 .add(ModBlocks.RED_CONCRETE_BRICKS)
+                .add(ModBlocks.RED_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.ORANGE_CONCRETE_STAIRS)
                 .add(ModBlocks.ORANGE_CONCRETE_SLAB)
@@ -73,6 +79,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ORANGE_CONCRETE_GATE)
                 .add(ModBlocks.ORANGE_CONCRETE_BUTTON)
                 .add(ModBlocks.ORANGE_CONCRETE_BRICKS)
+                .add(ModBlocks.ORANGE_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.YELLOW_CONCRETE_STAIRS)
                 .add(ModBlocks.YELLOW_CONCRETE_SLAB)
@@ -81,6 +88,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.YELLOW_CONCRETE_GATE)
                 .add(ModBlocks.YELLOW_CONCRETE_BUTTON)
                 .add(ModBlocks.YELLOW_CONCRETE_BRICKS)
+                .add(ModBlocks.YELLOW_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.LIME_CONCRETE_STAIRS)
                 .add(ModBlocks.LIME_CONCRETE_SLAB)
@@ -89,6 +97,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LIME_CONCRETE_GATE)
                 .add(ModBlocks.LIME_CONCRETE_BUTTON)
                 .add(ModBlocks.LIME_CONCRETE_BRICKS)
+                .add(ModBlocks.LIME_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.GREEN_CONCRETE_STAIRS)
                 .add(ModBlocks.GREEN_CONCRETE_SLAB)
@@ -97,6 +106,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GREEN_CONCRETE_GATE)
                 .add(ModBlocks.GREEN_CONCRETE_BUTTON)
                 .add(ModBlocks.GREEN_CONCRETE_BRICKS)
+                .add(ModBlocks.GREEN_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.CYAN_CONCRETE_STAIRS)
                 .add(ModBlocks.CYAN_CONCRETE_SLAB)
@@ -105,6 +115,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CYAN_CONCRETE_GATE)
                 .add(ModBlocks.CYAN_CONCRETE_BUTTON)
                 .add(ModBlocks.CYAN_CONCRETE_BRICKS)
+                .add(ModBlocks.CYAN_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS)
                 .add(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB)
@@ -113,6 +124,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LIGHT_BLUE_CONCRETE_GATE)
                 .add(ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON)
                 .add(ModBlocks.LIGHT_BLUE_CONCRETE_BRICKS)
+                .add(ModBlocks.LIGHT_BLUE_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.BLUE_CONCRETE_STAIRS)
                 .add(ModBlocks.BLUE_CONCRETE_SLAB)
@@ -121,6 +133,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLUE_CONCRETE_GATE)
                 .add(ModBlocks.BLUE_CONCRETE_BUTTON)
                 .add(ModBlocks.BLUE_CONCRETE_BRICKS)
+                .add(ModBlocks.BLUE_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.PURPLE_CONCRETE_STAIRS)
                 .add(ModBlocks.PURPLE_CONCRETE_SLAB)
@@ -129,6 +142,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPLE_CONCRETE_GATE)
                 .add(ModBlocks.PURPLE_CONCRETE_BUTTON)
                 .add(ModBlocks.PURPLE_CONCRETE_BRICKS)
+                .add(ModBlocks.PURPLE_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.MAGENTA_CONCRETE_STAIRS)
                 .add(ModBlocks.MAGENTA_CONCRETE_SLAB)
@@ -137,6 +151,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGENTA_CONCRETE_GATE)
                 .add(ModBlocks.MAGENTA_CONCRETE_BUTTON)
                 .add(ModBlocks.MAGENTA_CONCRETE_BRICKS)
+                .add(ModBlocks.MAGENTA_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.PINK_CONCRETE_STAIRS)
                 .add(ModBlocks.PINK_CONCRETE_SLAB)
@@ -144,11 +159,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_CONCRETE_FENCE)
                 .add(ModBlocks.PINK_CONCRETE_GATE)
                 .add(ModBlocks.PINK_CONCRETE_BUTTON)
-                .add(ModBlocks.PINK_CONCRETE_BRICKS);
+                .add(ModBlocks.PINK_CONCRETE_BRICKS)
+                .add(ModBlocks.PINK_CONCRETE_BRICK_SLABS);
 
 
     //Needs Stone Tool
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+
                 .add(ModBlocks.WHITE_CONCRETE_STAIRS)
                 .add(ModBlocks.WHITE_CONCRETE_SLAB)
                 .add(ModBlocks.WHITE_CONCRETE_WALL)
@@ -156,6 +173,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WHITE_CONCRETE_GATE)
                 .add(ModBlocks.WHITE_CONCRETE_BUTTON)
                 .add(ModBlocks.WHITE_CONCRETE_BRICKS)
+                .add(ModBlocks.WHITE_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS)
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB)
@@ -164,6 +182,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_GATE)
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON)
                 .add(ModBlocks.LIGHT_GRAY_CONCRETE_BRICKS)
+                .add(ModBlocks.LIGHT_GRAY_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.GRAY_CONCRETE_STAIRS)
                 .add(ModBlocks.GRAY_CONCRETE_SLAB)
@@ -172,6 +191,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRAY_CONCRETE_GATE)
                 .add(ModBlocks.GRAY_CONCRETE_BUTTON)
                 .add(ModBlocks.GRAY_CONCRETE_BRICKS)
+                .add(ModBlocks.GRAY_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.BLACK_CONCRETE_STAIRS)
                 .add(ModBlocks.BLACK_CONCRETE_SLAB)
@@ -180,6 +200,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLACK_CONCRETE_GATE)
                 .add(ModBlocks.BLACK_CONCRETE_BUTTON)
                 .add(ModBlocks.BLACK_CONCRETE_BRICKS)
+                .add(ModBlocks.BLACK_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.BROWN_CONCRETE_STAIRS)
                 .add(ModBlocks.BROWN_CONCRETE_SLAB)
@@ -188,6 +209,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BROWN_CONCRETE_GATE)
                 .add(ModBlocks.BROWN_CONCRETE_BUTTON)
                 .add(ModBlocks.BROWN_CONCRETE_BRICKS)
+                .add(ModBlocks.BROWN_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.RED_CONCRETE_STAIRS)
                 .add(ModBlocks.RED_CONCRETE_SLAB)
@@ -196,6 +218,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RED_CONCRETE_GATE)
                 .add(ModBlocks.RED_CONCRETE_BUTTON)
                 .add(ModBlocks.RED_CONCRETE_BRICKS)
+                .add(ModBlocks.RED_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.ORANGE_CONCRETE_STAIRS)
                 .add(ModBlocks.ORANGE_CONCRETE_SLAB)
@@ -204,6 +227,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ORANGE_CONCRETE_GATE)
                 .add(ModBlocks.ORANGE_CONCRETE_BUTTON)
                 .add(ModBlocks.ORANGE_CONCRETE_BRICKS)
+                .add(ModBlocks.ORANGE_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.YELLOW_CONCRETE_STAIRS)
                 .add(ModBlocks.YELLOW_CONCRETE_SLAB)
@@ -212,6 +236,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.YELLOW_CONCRETE_GATE)
                 .add(ModBlocks.YELLOW_CONCRETE_BUTTON)
                 .add(ModBlocks.YELLOW_CONCRETE_BRICKS)
+                .add(ModBlocks.YELLOW_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.LIME_CONCRETE_STAIRS)
                 .add(ModBlocks.LIME_CONCRETE_SLAB)
@@ -220,6 +245,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LIME_CONCRETE_GATE)
                 .add(ModBlocks.LIME_CONCRETE_BUTTON)
                 .add(ModBlocks.LIME_CONCRETE_BRICKS)
+                .add(ModBlocks.LIME_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.GREEN_CONCRETE_STAIRS)
                 .add(ModBlocks.GREEN_CONCRETE_SLAB)
@@ -228,6 +254,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GREEN_CONCRETE_GATE)
                 .add(ModBlocks.GREEN_CONCRETE_BUTTON)
                 .add(ModBlocks.GREEN_CONCRETE_BRICKS)
+                .add(ModBlocks.GREEN_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.CYAN_CONCRETE_STAIRS)
                 .add(ModBlocks.CYAN_CONCRETE_SLAB)
@@ -236,6 +263,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CYAN_CONCRETE_GATE)
                 .add(ModBlocks.CYAN_CONCRETE_BUTTON)
                 .add(ModBlocks.CYAN_CONCRETE_BRICKS)
+                .add(ModBlocks.CYAN_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS)
                 .add(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB)
@@ -244,6 +272,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LIGHT_BLUE_CONCRETE_GATE)
                 .add(ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON)
                 .add(ModBlocks.LIGHT_BLUE_CONCRETE_BRICKS)
+                .add(ModBlocks.LIGHT_BLUE_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.BLUE_CONCRETE_STAIRS)
                 .add(ModBlocks.BLUE_CONCRETE_SLAB)
@@ -252,6 +281,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLUE_CONCRETE_GATE)
                 .add(ModBlocks.BLUE_CONCRETE_BUTTON)
                 .add(ModBlocks.BLUE_CONCRETE_BRICKS)
+                .add(ModBlocks.BLUE_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.PURPLE_CONCRETE_STAIRS)
                 .add(ModBlocks.PURPLE_CONCRETE_SLAB)
@@ -260,6 +290,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPLE_CONCRETE_GATE)
                 .add(ModBlocks.PURPLE_CONCRETE_BUTTON)
                 .add(ModBlocks.PURPLE_CONCRETE_BRICKS)
+                .add(ModBlocks.PURPLE_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.MAGENTA_CONCRETE_STAIRS)
                 .add(ModBlocks.MAGENTA_CONCRETE_SLAB)
@@ -268,6 +299,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGENTA_CONCRETE_GATE)
                 .add(ModBlocks.MAGENTA_CONCRETE_BUTTON)
                 .add(ModBlocks.MAGENTA_CONCRETE_BRICKS)
+                .add(ModBlocks.MAGENTA_CONCRETE_BRICK_SLABS)
 
                 .add(ModBlocks.PINK_CONCRETE_STAIRS)
                 .add(ModBlocks.PINK_CONCRETE_SLAB)
@@ -275,7 +307,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_CONCRETE_FENCE)
                 .add(ModBlocks.PINK_CONCRETE_GATE)
                 .add(ModBlocks.PINK_CONCRETE_BUTTON)
-                .add(ModBlocks.PINK_CONCRETE_BRICKS);
+                .add(ModBlocks.PINK_CONCRETE_BRICKS)
+                .add(ModBlocks.PINK_CONCRETE_BRICK_SLABS);
 
 
     //Wall tags

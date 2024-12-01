@@ -21,7 +21,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 //Creates the recipes for each block, one set per colour.
-//Stone cutting for stairs, slabs, walls.
+//Stone cutting for stairs, slabs, walls, bricks.
 //Crafting table for all.
     @Override
     protected RecipeGenerator getRecipeGenerator(RegistryWrapper.WrapperLookup wrapperLookup, RecipeExporter recipeExporter) {
@@ -73,6 +73,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.WHITE_CONCRETE))
                         .criterion(hasItem(Blocks.WHITE_CONCRETE), conditionsFromItem(Blocks.WHITE_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_BRICK_SLABS, Blocks.WHITE_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_BRICK_SLABS, Blocks.WHITE_CONCRETE);
 
 
                 //Light Gray
@@ -119,6 +121,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.LIGHT_GRAY_CONCRETE))
                         .criterion(hasItem(Blocks.LIGHT_GRAY_CONCRETE), conditionsFromItem(Blocks.LIGHT_GRAY_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_CONCRETE_BRICK_SLABS, Blocks.LIGHT_GRAY_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_CONCRETE_BRICK_SLABS, Blocks.LIGHT_GRAY_CONCRETE);
 
 
                 //Gray
@@ -165,6 +169,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.GRAY_CONCRETE))
                         .criterion(hasItem(Blocks.GRAY_CONCRETE), conditionsFromItem(Blocks.GRAY_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_CONCRETE_BRICK_SLABS, Blocks.GRAY_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_CONCRETE_BRICK_SLABS, Blocks.GRAY_CONCRETE);
 
 
                 //Black
@@ -211,6 +217,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.BLACK_CONCRETE))
                         .criterion(hasItem(Blocks.BLACK_CONCRETE), conditionsFromItem(Blocks.BLACK_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_BRICK_SLABS, Blocks.BLACK_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_BRICK_SLABS, Blocks.BLACK_CONCRETE);
 
 
                 //Brown
@@ -257,6 +265,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.BROWN_CONCRETE))
                         .criterion(hasItem(Blocks.BROWN_CONCRETE), conditionsFromItem(Blocks.BROWN_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_CONCRETE_BRICK_SLABS, Blocks.BROWN_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_CONCRETE_BRICK_SLABS, Blocks.BROWN_CONCRETE);
 
                 
                 //Red
@@ -303,6 +313,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.RED_CONCRETE))
                         .criterion(hasItem(Blocks.RED_CONCRETE), conditionsFromItem(Blocks.RED_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_CONCRETE_BRICK_SLABS, Blocks.RED_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_CONCRETE_BRICK_SLABS, Blocks.RED_CONCRETE);
                 
                 
                 //Orange
@@ -349,6 +361,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.ORANGE_CONCRETE))
                         .criterion(hasItem(Blocks.ORANGE_CONCRETE), conditionsFromItem(Blocks.ORANGE_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_CONCRETE_BRICK_SLABS, Blocks.ORANGE_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_CONCRETE_BRICK_SLABS, Blocks.ORANGE_CONCRETE);
 
                 
                 //Yellow
@@ -395,6 +409,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.YELLOW_CONCRETE))
                         .criterion(hasItem(Blocks.YELLOW_CONCRETE), conditionsFromItem(Blocks.YELLOW_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_CONCRETE_BRICK_SLABS, Blocks.YELLOW_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_CONCRETE_BRICK_SLABS, Blocks.YELLOW_CONCRETE);
 
                 
                 //Lime
@@ -441,6 +457,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.LIME_CONCRETE))
                         .criterion(hasItem(Blocks.LIME_CONCRETE), conditionsFromItem(Blocks.LIME_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_CONCRETE_BRICK_SLABS, Blocks.LIME_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_CONCRETE_BRICK_SLABS, Blocks.LIME_CONCRETE);
 
                 
                 //Green
@@ -487,6 +505,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.GREEN_CONCRETE))
                         .criterion(hasItem(Blocks.GREEN_CONCRETE), conditionsFromItem(Blocks.GREEN_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_CONCRETE_BRICK_SLABS, Blocks.GREEN_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_CONCRETE_BRICK_SLABS, Blocks.GREEN_CONCRETE);
 
                 
                 //Cyan
@@ -533,6 +553,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.CYAN_CONCRETE))
                         .criterion(hasItem(Blocks.CYAN_CONCRETE), conditionsFromItem(Blocks.CYAN_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_CONCRETE_BRICK_SLABS, Blocks.CYAN_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_CONCRETE_BRICK_SLABS, Blocks.CYAN_CONCRETE);
 
                 
                 //Light Blue
@@ -579,6 +601,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.LIGHT_BLUE_CONCRETE))
                         .criterion(hasItem(Blocks.LIGHT_BLUE_CONCRETE), conditionsFromItem(Blocks.LIGHT_BLUE_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_CONCRETE_BRICK_SLABS, Blocks.LIGHT_BLUE_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_CONCRETE_BRICK_SLABS, Blocks.LIGHT_BLUE_CONCRETE);
                 
 
                 //Blue
@@ -625,6 +649,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.BLUE_CONCRETE))
                         .criterion(hasItem(Blocks.BLUE_CONCRETE), conditionsFromItem(Blocks.BLUE_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_CONCRETE_BRICK_SLABS, Blocks.BLUE_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_CONCRETE_BRICK_SLABS, Blocks.BLUE_CONCRETE);
                 
 
                 //Purple
@@ -671,6 +697,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.PURPLE_CONCRETE))
                         .criterion(hasItem(Blocks.PURPLE_CONCRETE), conditionsFromItem(Blocks.PURPLE_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_CONCRETE_BRICK_SLABS, Blocks.PURPLE_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_CONCRETE_BRICK_SLABS, Blocks.PURPLE_CONCRETE);
                 
 
                 //Magenta
@@ -717,6 +745,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.MAGENTA_CONCRETE))
                         .criterion(hasItem(Blocks.MAGENTA_CONCRETE), conditionsFromItem(Blocks.MAGENTA_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_BRICK_SLABS, Blocks.MAGENTA_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_BRICK_SLABS, Blocks.MAGENTA_CONCRETE);
 
                 
                 //Pink
@@ -763,6 +793,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('C', Ingredient.ofItems(Blocks.PINK_CONCRETE))
                         .criterion(hasItem(Blocks.PINK_CONCRETE), conditionsFromItem(Blocks.PINK_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_CONCRETE_BRICK_SLABS, Blocks.PINK_CONCRETE, 2);
+                offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_CONCRETE_BRICK_SLABS, Blocks.PINK_CONCRETE);
             }
         };
     }
