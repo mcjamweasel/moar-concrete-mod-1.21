@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "moarconcrete",
-	"version": "1.4.1",
+	"version": "1.5.0",
 	"name": "Moar Concrete",
 	"description": "Adds moar concrete - specifically, slabs, stairs, walls, fences & gates and buttons. Made (badly) by McJamweasel",
 	"authors": [

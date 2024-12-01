@@ -65,6 +65,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("concrete_buttons")
                         .criterion(hasItem(Blocks.WHITE_CONCRETE), conditionsFromItem(Blocks.WHITE_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_BRICKS, Blocks.WHITE_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.WHITE_CONCRETE))
+                        .criterion(hasItem(Blocks.WHITE_CONCRETE), conditionsFromItem(Blocks.WHITE_CONCRETE))
+                        .offerTo(exporter);
 
 
                 //Light Gray
@@ -101,6 +109,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 createShapeless(RecipeCategory.REDSTONE, ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON, 1)
                         .input(Blocks.LIGHT_GRAY_CONCRETE)
                         .group("concrete_buttons")
+                        .criterion(hasItem(Blocks.LIGHT_GRAY_CONCRETE), conditionsFromItem(Blocks.LIGHT_GRAY_CONCRETE))
+                        .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_CONCRETE_BRICKS, Blocks.LIGHT_GRAY_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.LIGHT_GRAY_CONCRETE))
                         .criterion(hasItem(Blocks.LIGHT_GRAY_CONCRETE), conditionsFromItem(Blocks.LIGHT_GRAY_CONCRETE))
                         .offerTo(exporter);
 
@@ -141,6 +157,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("concrete_buttons")
                         .criterion(hasItem(Blocks.GRAY_CONCRETE), conditionsFromItem(Blocks.GRAY_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_CONCRETE_BRICKS, Blocks.GRAY_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.GRAY_CONCRETE))
+                        .criterion(hasItem(Blocks.GRAY_CONCRETE), conditionsFromItem(Blocks.GRAY_CONCRETE))
+                        .offerTo(exporter);
 
 
                 //Black
@@ -177,6 +201,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 createShapeless(RecipeCategory.REDSTONE, ModBlocks.BLACK_CONCRETE_BUTTON, 1)
                         .input(Blocks.BLACK_CONCRETE)
                         .group("concrete_buttons")
+                        .criterion(hasItem(Blocks.BLACK_CONCRETE), conditionsFromItem(Blocks.BLACK_CONCRETE))
+                        .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_BRICKS, Blocks.BLACK_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.BLACK_CONCRETE))
                         .criterion(hasItem(Blocks.BLACK_CONCRETE), conditionsFromItem(Blocks.BLACK_CONCRETE))
                         .offerTo(exporter);
 
@@ -217,6 +249,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("concrete_buttons")
                         .criterion(hasItem(Blocks.BROWN_CONCRETE), conditionsFromItem(Blocks.BROWN_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_CONCRETE_BRICKS, Blocks.BROWN_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.BROWN_CONCRETE))
+                        .criterion(hasItem(Blocks.BROWN_CONCRETE), conditionsFromItem(Blocks.BROWN_CONCRETE))
+                        .offerTo(exporter);
 
                 
                 //Red
@@ -253,6 +293,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 createShapeless(RecipeCategory.REDSTONE, ModBlocks.RED_CONCRETE_BUTTON, 1)
                         .input(Blocks.RED_CONCRETE)
                         .group("concrete_buttons")
+                        .criterion(hasItem(Blocks.RED_CONCRETE), conditionsFromItem(Blocks.RED_CONCRETE))
+                        .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_CONCRETE_BRICKS, Blocks.RED_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.RED_CONCRETE))
                         .criterion(hasItem(Blocks.RED_CONCRETE), conditionsFromItem(Blocks.RED_CONCRETE))
                         .offerTo(exporter);
                 
@@ -293,6 +341,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("concrete_buttons")
                         .criterion(hasItem(Blocks.ORANGE_CONCRETE), conditionsFromItem(Blocks.ORANGE_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_CONCRETE_BRICKS, Blocks.ORANGE_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.ORANGE_CONCRETE))
+                        .criterion(hasItem(Blocks.ORANGE_CONCRETE), conditionsFromItem(Blocks.ORANGE_CONCRETE))
+                        .offerTo(exporter);
 
                 
                 //Yellow
@@ -329,6 +385,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 createShapeless(RecipeCategory.REDSTONE, ModBlocks.YELLOW_CONCRETE_BUTTON, 1)
                         .input(Blocks.YELLOW_CONCRETE)
                         .group("concrete_buttons")
+                        .criterion(hasItem(Blocks.YELLOW_CONCRETE), conditionsFromItem(Blocks.YELLOW_CONCRETE))
+                        .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_CONCRETE_BRICKS, Blocks.YELLOW_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.YELLOW_CONCRETE))
                         .criterion(hasItem(Blocks.YELLOW_CONCRETE), conditionsFromItem(Blocks.YELLOW_CONCRETE))
                         .offerTo(exporter);
 
@@ -369,6 +433,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("concrete_buttons")
                         .criterion(hasItem(Blocks.LIME_CONCRETE), conditionsFromItem(Blocks.LIME_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_CONCRETE_BRICKS, Blocks.LIME_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.LIME_CONCRETE))
+                        .criterion(hasItem(Blocks.LIME_CONCRETE), conditionsFromItem(Blocks.LIME_CONCRETE))
+                        .offerTo(exporter);
 
                 
                 //Green
@@ -405,6 +477,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 createShapeless(RecipeCategory.REDSTONE, ModBlocks.GREEN_CONCRETE_BUTTON, 1)
                         .input(Blocks.GREEN_CONCRETE)
                         .group("concrete_buttons")
+                        .criterion(hasItem(Blocks.GREEN_CONCRETE), conditionsFromItem(Blocks.GREEN_CONCRETE))
+                        .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_CONCRETE_BRICKS, Blocks.GREEN_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.GREEN_CONCRETE))
                         .criterion(hasItem(Blocks.GREEN_CONCRETE), conditionsFromItem(Blocks.GREEN_CONCRETE))
                         .offerTo(exporter);
 
@@ -445,6 +525,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("concrete_buttons")
                         .criterion(hasItem(Blocks.CYAN_CONCRETE), conditionsFromItem(Blocks.CYAN_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_CONCRETE_BRICKS, Blocks.CYAN_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.CYAN_CONCRETE))
+                        .criterion(hasItem(Blocks.CYAN_CONCRETE), conditionsFromItem(Blocks.CYAN_CONCRETE))
+                        .offerTo(exporter);
 
                 
                 //Light Blue
@@ -481,6 +569,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 createShapeless(RecipeCategory.REDSTONE, ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON, 1)
                         .input(Blocks.LIGHT_BLUE_CONCRETE)
                         .group("concrete_buttons")
+                        .criterion(hasItem(Blocks.LIGHT_BLUE_CONCRETE), conditionsFromItem(Blocks.LIGHT_BLUE_CONCRETE))
+                        .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_CONCRETE_BRICKS, Blocks.LIGHT_BLUE_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.LIGHT_BLUE_CONCRETE))
                         .criterion(hasItem(Blocks.LIGHT_BLUE_CONCRETE), conditionsFromItem(Blocks.LIGHT_BLUE_CONCRETE))
                         .offerTo(exporter);
                 
@@ -521,6 +617,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("concrete_buttons")
                         .criterion(hasItem(Blocks.BLUE_CONCRETE), conditionsFromItem(Blocks.BLUE_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_CONCRETE_BRICKS, Blocks.BLUE_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.BLUE_CONCRETE))
+                        .criterion(hasItem(Blocks.BLUE_CONCRETE), conditionsFromItem(Blocks.BLUE_CONCRETE))
+                        .offerTo(exporter);
                 
 
                 //Purple
@@ -557,6 +661,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 createShapeless(RecipeCategory.REDSTONE, ModBlocks.PURPLE_CONCRETE_BUTTON, 1)
                         .input(Blocks.PURPLE_CONCRETE)
                         .group("concrete_buttons")
+                        .criterion(hasItem(Blocks.PURPLE_CONCRETE), conditionsFromItem(Blocks.PURPLE_CONCRETE))
+                        .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_CONCRETE_BRICKS, Blocks.PURPLE_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.PURPLE_CONCRETE))
                         .criterion(hasItem(Blocks.PURPLE_CONCRETE), conditionsFromItem(Blocks.PURPLE_CONCRETE))
                         .offerTo(exporter);
                 
@@ -597,6 +709,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("concrete_buttons")
                         .criterion(hasItem(Blocks.MAGENTA_CONCRETE), conditionsFromItem(Blocks.MAGENTA_CONCRETE))
                         .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_BRICKS, Blocks.MAGENTA_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.MAGENTA_CONCRETE))
+                        .criterion(hasItem(Blocks.MAGENTA_CONCRETE), conditionsFromItem(Blocks.MAGENTA_CONCRETE))
+                        .offerTo(exporter);
 
                 
                 //Pink
@@ -633,6 +753,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 createShapeless(RecipeCategory.REDSTONE, ModBlocks.PINK_CONCRETE_BUTTON, 1)
                         .input(Blocks.PINK_CONCRETE)
                         .group("concrete_buttons")
+                        .criterion(hasItem(Blocks.PINK_CONCRETE), conditionsFromItem(Blocks.PINK_CONCRETE))
+                        .offerTo(exporter);
+                offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_CONCRETE_BRICKS, Blocks.PINK_CONCRETE);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_CONCRETE_BRICKS, 4)
+                        .pattern("CC ")
+                        .pattern("CC ")
+                        .pattern("   ")
+                        .input('C', Ingredient.ofItems(Blocks.PINK_CONCRETE))
                         .criterion(hasItem(Blocks.PINK_CONCRETE), conditionsFromItem(Blocks.PINK_CONCRETE))
                         .offerTo(exporter);
             }

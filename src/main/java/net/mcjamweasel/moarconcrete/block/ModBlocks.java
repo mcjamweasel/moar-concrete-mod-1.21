@@ -313,8 +313,54 @@ public class ModBlocks {
 
 
 //Bricks functions
-    //public static final Block WHITE_CONCRETE_BRICKS = registerBlock("white_concrete_bricks",
-      //      new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS)));
+    public static final Block WHITE_CONCRETE_BRICKS = registerBlock("white_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "white_concrete_bricks")))));
+
+    public static final Block LIGHT_GRAY_CONCRETE_BRICKS = registerBlock("light_gray_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "light_gray_concrete_bricks")))));
+
+    public static final Block GRAY_CONCRETE_BRICKS = registerBlock("gray_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "gray_concrete_bricks")))));
+
+    public static final Block BLACK_CONCRETE_BRICKS = registerBlock("black_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "black_concrete_bricks")))));
+
+    public static final Block BROWN_CONCRETE_BRICKS = registerBlock("brown_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "brown_concrete_bricks")))));
+
+    public static final Block RED_CONCRETE_BRICKS = registerBlock("red_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "red_concrete_bricks")))));
+
+    public static final Block ORANGE_CONCRETE_BRICKS = registerBlock("orange_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "orange_concrete_bricks")))));
+
+    public static final Block YELLOW_CONCRETE_BRICKS = registerBlock("yellow_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "yellow_concrete_bricks")))));
+
+    public static final Block LIME_CONCRETE_BRICKS = registerBlock("lime_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "lime_concrete_bricks")))));
+
+    public static final Block GREEN_CONCRETE_BRICKS = registerBlock("green_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "green_concrete_bricks")))));
+
+    public static final Block CYAN_CONCRETE_BRICKS = registerBlock("cyan_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "cyan_concrete_bricks")))));
+
+    public static final Block LIGHT_BLUE_CONCRETE_BRICKS = registerBlock("light_blue_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "light_blue_concrete_bricks")))));
+
+    public static final Block BLUE_CONCRETE_BRICKS = registerBlock("blue_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "blue_concrete_bricks")))));
+
+    public static final Block PURPLE_CONCRETE_BRICKS = registerBlock("purple_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "purple_concrete_bricks")))));
+
+    public static final Block MAGENTA_CONCRETE_BRICKS = registerBlock("magenta_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "magenta_concrete_bricks")))));
+
+    public static final Block PINK_CONCRETE_BRICKS = registerBlock("pink_concrete_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "pink_concrete_bricks")))));
+
 
 
 //Registry methods
@@ -338,97 +384,112 @@ public class ModBlocks {
         entries.add(WHITE_CONCRETE_WALL);
         entries.add(WHITE_CONCRETE_FENCE);
         entries.add(WHITE_CONCRETE_GATE);
-        //entries.add(WHITE_CONCRETE_BRICKS);
+        entries.add(WHITE_CONCRETE_BRICKS);
 
         entries.add(LIGHT_GRAY_CONCRETE_STAIRS);
         entries.add(LIGHT_GRAY_CONCRETE_SLAB);
         entries.add(LIGHT_GRAY_CONCRETE_WALL);
         entries.add(LIGHT_GRAY_CONCRETE_FENCE);
         entries.add(LIGHT_GRAY_CONCRETE_GATE);
+        entries.add(LIGHT_GRAY_CONCRETE_BRICKS);
 
         entries.add(GRAY_CONCRETE_STAIRS);
         entries.add(GRAY_CONCRETE_SLAB);
         entries.add(GRAY_CONCRETE_WALL);
         entries.add(GRAY_CONCRETE_FENCE);
         entries.add(GRAY_CONCRETE_GATE);
+        entries.add(GRAY_CONCRETE_BRICKS);
 
         entries.add(BLACK_CONCRETE_STAIRS);
         entries.add(BLACK_CONCRETE_SLAB);
         entries.add(BLACK_CONCRETE_WALL);
         entries.add(BLACK_CONCRETE_FENCE);
         entries.add(BLACK_CONCRETE_GATE);
+        entries.add(BLACK_CONCRETE_BRICKS);
 
         entries.add(BROWN_CONCRETE_STAIRS);
         entries.add(BROWN_CONCRETE_SLAB);
         entries.add(BROWN_CONCRETE_WALL);
         entries.add(BROWN_CONCRETE_FENCE);
         entries.add(BROWN_CONCRETE_GATE);
+        entries.add(BROWN_CONCRETE_BRICKS);
 
         entries.add(RED_CONCRETE_STAIRS);
         entries.add(RED_CONCRETE_SLAB);
         entries.add(RED_CONCRETE_WALL);
         entries.add(RED_CONCRETE_FENCE);
         entries.add(RED_CONCRETE_GATE);
+        entries.add(RED_CONCRETE_BRICKS);
 
         entries.add(ORANGE_CONCRETE_STAIRS);
         entries.add(ORANGE_CONCRETE_SLAB);
         entries.add(ORANGE_CONCRETE_WALL);
         entries.add(ORANGE_CONCRETE_FENCE);
         entries.add(ORANGE_CONCRETE_GATE);
+        entries.add(ORANGE_CONCRETE_BRICKS);
 
         entries.add(YELLOW_CONCRETE_STAIRS);
         entries.add(YELLOW_CONCRETE_SLAB);
         entries.add(YELLOW_CONCRETE_WALL);
         entries.add(YELLOW_CONCRETE_FENCE);
         entries.add(YELLOW_CONCRETE_GATE);
+        entries.add(YELLOW_CONCRETE_BRICKS);
 
         entries.add(LIME_CONCRETE_STAIRS);
         entries.add(LIME_CONCRETE_SLAB);
         entries.add(LIME_CONCRETE_WALL);
         entries.add(LIME_CONCRETE_FENCE);
         entries.add(LIME_CONCRETE_GATE);
+        entries.add(LIME_CONCRETE_BRICKS);
 
         entries.add(GREEN_CONCRETE_STAIRS);
         entries.add(GREEN_CONCRETE_SLAB);
         entries.add(GREEN_CONCRETE_WALL);
         entries.add(GREEN_CONCRETE_FENCE);
         entries.add(GREEN_CONCRETE_GATE);
+        entries.add(GREEN_CONCRETE_BRICKS);
 
         entries.add(CYAN_CONCRETE_STAIRS);
         entries.add(CYAN_CONCRETE_SLAB);
         entries.add(CYAN_CONCRETE_WALL);
         entries.add(CYAN_CONCRETE_FENCE);
         entries.add(CYAN_CONCRETE_GATE);
+        entries.add(CYAN_CONCRETE_BRICKS);
 
         entries.add(LIGHT_BLUE_CONCRETE_STAIRS);
         entries.add(LIGHT_BLUE_CONCRETE_SLAB);
         entries.add(LIGHT_BLUE_CONCRETE_WALL);
         entries.add(LIGHT_BLUE_CONCRETE_FENCE);
         entries.add(LIGHT_BLUE_CONCRETE_GATE);
+        entries.add(LIGHT_BLUE_CONCRETE_BRICKS);
 
         entries.add(BLUE_CONCRETE_STAIRS);
         entries.add(BLUE_CONCRETE_SLAB);
         entries.add(BLUE_CONCRETE_WALL);
         entries.add(BLUE_CONCRETE_FENCE);
         entries.add(BLUE_CONCRETE_GATE);
+        entries.add(BLUE_CONCRETE_BRICKS);
 
         entries.add(PURPLE_CONCRETE_STAIRS);
         entries.add(PURPLE_CONCRETE_SLAB);
         entries.add(PURPLE_CONCRETE_WALL);
         entries.add(PURPLE_CONCRETE_FENCE);
         entries.add(PURPLE_CONCRETE_GATE);
+        entries.add(PURPLE_CONCRETE_BRICKS);
 
         entries.add(MAGENTA_CONCRETE_STAIRS);
         entries.add(MAGENTA_CONCRETE_SLAB);
         entries.add(MAGENTA_CONCRETE_WALL);
         entries.add(MAGENTA_CONCRETE_GATE);
         entries.add(MAGENTA_CONCRETE_FENCE);
+        entries.add(MAGENTA_CONCRETE_BRICKS);
 
         entries.add(PINK_CONCRETE_STAIRS);
         entries.add(PINK_CONCRETE_SLAB);
         entries.add(PINK_CONCRETE_WALL);
         entries.add(PINK_CONCRETE_FENCE);
         entries.add(PINK_CONCRETE_GATE);
+        entries.add(PINK_CONCRETE_BRICKS);
     }
 
 
