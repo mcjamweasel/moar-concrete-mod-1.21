@@ -413,7 +413,6 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "pink_concrete_brick_slabs")))));
 
 
-
 //Registry methods
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
