@@ -141,5 +141,22 @@
   "block.moarconcrete.pink_concrete_gate": "Pink Concrete Fence Gate",
   "block.moarconcrete.pink_concrete_button": "Pink Concrete Button",
   "block.moarconcrete.pink_concrete_bricks": "Pink Concrete Bricks",
-  "block.moarconcrete.pink_concrete_brick_slabs": "Pink Concrete Brick Slab"
+  "block.moarconcrete.pink_concrete_brick_slabs": "Pink Concrete Brick Slab",
+
+  "block.moarconcrete.white_concrete_panel": "White Concrete Panel",
+  "block.moarconcrete.light_gray_concrete_panel": "Light Gray Concrete Panel",
+  "block.moarconcrete.gray_concrete_panel": "Gray Concrete Panel",
+  "block.moarconcrete.black_concrete_panel": "Black Concrete Panel",
+  "block.moarconcrete.brown_concrete_panel": "Brown Concrete Panel",
+  "block.moarconcrete.red_concrete_panel": "Red Concrete Panel",
+  "block.moarconcrete.orange_concrete_panel": "Orange Concrete Panel",
+  "block.moarconcrete.yellow_concrete_panel": "Yellow Concrete Panel",
+  "block.moarconcrete.lime_concrete_panel": "Lime Concrete Panel",
+  "block.moarconcrete.green_concrete_panel": "Green Concrete Panel",
+  "block.moarconcrete.cyan_concrete_panel": "Cyan Concrete Panel",
+  "block.moarconcrete.light_blue_concrete_panel": "Light Blue Concrete Panel",
+  "block.moarconcrete.blue_concrete_panel": "Blue Concrete Panel",
+  "block.moarconcrete.purple_concrete_panel": "Purple Concrete Panel",
+  "block.moarconcrete.magenta_concrete_panel": "Magenta Concrete Panel",
+  "block.moarconcrete.pink_concrete_panel": "Pink Concrete Panel"
 }

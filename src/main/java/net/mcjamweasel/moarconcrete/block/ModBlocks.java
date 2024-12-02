@@ -362,8 +362,7 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "pink_concrete_bricks")))));
 
 
-    //Brick Slabs functions
-    
+//Brick Slabs functions
     public static final Block WHITE_CONCRETE_BRICK_SLABS = registerBlock("white_concrete_brick_slabs",
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "white_concrete_brick_slabs")))));
 
@@ -413,6 +412,22 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "pink_concrete_brick_slabs")))));
 
 
+//Panel functions. Need one helper and one panel for each colour. The helper sets the texture.
+    //public static final Block WHITE_CONCRETE_PANEL = registerBlock("white_concrete_panel",
+    //    new PaneBlock(AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "white_concrete_panel")))));
+
+    public static final Block LIGHT_GRAY_CONCRETE_HELPER = registerBlock("light_gray_concrete_helper",
+            new Block(AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "light_gray_concrete_helper")))));
+
+    public static final Block LIGHT_GRAY_CONCRETE_PANEL = registerBlock("light_gray_concrete_panel",
+            new PaneBlock(AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "light_gray_concrete_panel")))));
+
+    //public static final Block BLACK_CONCRETE_PANEL = registerBlock("black_concrete_panel",
+    //        new PaneBlock(AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "black_concrete_panel")))));
+
+    //public static final Block PINK_CONCRETE_PANEL = registerBlock("pink_concrete_panel",
+    //        new PaneBlock(AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoarConcrete.MOD_ID, "pink_concrete_panel")))));
+
 //Registry methods
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -436,6 +451,7 @@ public class ModBlocks {
         entries.add(WHITE_CONCRETE_GATE);
         entries.add(WHITE_CONCRETE_BRICKS);
         entries.add(WHITE_CONCRETE_BRICK_SLABS);
+        //entries.add(WHITE_CONCRETE_PANEL);
 
         entries.add(LIGHT_GRAY_CONCRETE_STAIRS);
         entries.add(LIGHT_GRAY_CONCRETE_SLAB);
@@ -444,6 +460,8 @@ public class ModBlocks {
         entries.add(LIGHT_GRAY_CONCRETE_GATE);
         entries.add(LIGHT_GRAY_CONCRETE_BRICKS);
         entries.add(LIGHT_GRAY_CONCRETE_BRICK_SLABS);
+        entries.add(LIGHT_GRAY_CONCRETE_PANEL);
+        entries.add(LIGHT_GRAY_CONCRETE_HELPER);
 
         entries.add(GRAY_CONCRETE_STAIRS);
         entries.add(GRAY_CONCRETE_SLAB);
@@ -460,6 +478,7 @@ public class ModBlocks {
         entries.add(BLACK_CONCRETE_GATE);
         entries.add(BLACK_CONCRETE_BRICKS);
         entries.add(BLACK_CONCRETE_BRICK_SLABS);
+        //entries.add(BLACK_CONCRETE_PANEL);
 
         entries.add(BROWN_CONCRETE_STAIRS);
         entries.add(BROWN_CONCRETE_SLAB);
@@ -556,6 +575,8 @@ public class ModBlocks {
         entries.add(PINK_CONCRETE_GATE);
         entries.add(PINK_CONCRETE_BRICKS);
         entries.add(PINK_CONCRETE_BRICK_SLABS);
+
+        //entries.add(PINK_CONCRETE_PANEL);
     }
 
 

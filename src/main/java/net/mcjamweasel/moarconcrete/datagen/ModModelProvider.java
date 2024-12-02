@@ -36,6 +36,8 @@ public class ModModelProvider extends FabricModelProvider {
         lightGrayPool.button(ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool lightGrayBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LIGHT_GRAY_CONCRETE_BRICKS);
         lightGrayBrickPool.slab(ModBlocks.LIGHT_GRAY_CONCRETE_BRICK_SLABS);
+        blockStateModelGenerator.registerGlassPane(ModBlocks.LIGHT_GRAY_CONCRETE_HELPER, ModBlocks.LIGHT_GRAY_CONCRETE_PANEL);
+
 
         BlockStateModelGenerator.BlockTexturePool grayPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_CONCRETE);
         grayPool.stairs(ModBlocks.GRAY_CONCRETE_STAIRS);
@@ -176,6 +178,7 @@ public class ModModelProvider extends FabricModelProvider {
         pinkPool.button(ModBlocks.PINK_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool pinkBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PINK_CONCRETE_BRICKS);
         pinkBrickPool.slab(ModBlocks.PINK_CONCRETE_BRICK_SLABS);
+
     }
 
 
