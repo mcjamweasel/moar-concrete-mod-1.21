@@ -160,7 +160,24 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_CONCRETE_GATE)
                 .add(ModBlocks.PINK_CONCRETE_BUTTON)
                 .add(ModBlocks.PINK_CONCRETE_BRICKS)
-                .add(ModBlocks.PINK_CONCRETE_BRICK_SLABS);
+                .add(ModBlocks.PINK_CONCRETE_BRICK_SLABS)
+        
+                .add(ModBlocks.WHITE_CONCRETE_PANEL)
+                .add(ModBlocks.LIGHT_GRAY_CONCRETE_PANEL)
+                .add(ModBlocks.GRAY_CONCRETE_PANEL)
+                .add(ModBlocks.BLACK_CONCRETE_PANEL)
+                .add(ModBlocks.BROWN_CONCRETE_PANEL)
+                .add(ModBlocks.RED_CONCRETE_PANEL)
+                .add(ModBlocks.ORANGE_CONCRETE_PANEL)
+                .add(ModBlocks.YELLOW_CONCRETE_PANEL)
+                .add(ModBlocks.LIME_CONCRETE_PANEL)
+                .add(ModBlocks.GREEN_CONCRETE_PANEL)
+                .add(ModBlocks.CYAN_CONCRETE_PANEL)
+                .add(ModBlocks.LIGHT_BLUE_CONCRETE_PANEL)
+                .add(ModBlocks.BLUE_CONCRETE_PANEL)
+                .add(ModBlocks.PURPLE_CONCRETE_PANEL)
+                .add(ModBlocks.MAGENTA_CONCRETE_PANEL)
+                .add(ModBlocks.PINK_CONCRETE_PANEL);
 
 
     //Needs Stone Tool
@@ -308,7 +325,24 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_CONCRETE_GATE)
                 .add(ModBlocks.PINK_CONCRETE_BUTTON)
                 .add(ModBlocks.PINK_CONCRETE_BRICKS)
-                .add(ModBlocks.PINK_CONCRETE_BRICK_SLABS);
+                .add(ModBlocks.PINK_CONCRETE_BRICK_SLABS)
+
+                .add(ModBlocks.WHITE_CONCRETE_PANEL)
+                .add(ModBlocks.LIGHT_GRAY_CONCRETE_PANEL)
+                .add(ModBlocks.GRAY_CONCRETE_PANEL)
+                .add(ModBlocks.BLACK_CONCRETE_PANEL)
+                .add(ModBlocks.BROWN_CONCRETE_PANEL)
+                .add(ModBlocks.RED_CONCRETE_PANEL)
+                .add(ModBlocks.ORANGE_CONCRETE_PANEL)
+                .add(ModBlocks.YELLOW_CONCRETE_PANEL)
+                .add(ModBlocks.LIME_CONCRETE_PANEL)
+                .add(ModBlocks.GREEN_CONCRETE_PANEL)
+                .add(ModBlocks.CYAN_CONCRETE_PANEL)
+                .add(ModBlocks.LIGHT_BLUE_CONCRETE_PANEL)
+                .add(ModBlocks.BLUE_CONCRETE_PANEL)
+                .add(ModBlocks.PURPLE_CONCRETE_PANEL)
+                .add(ModBlocks.MAGENTA_CONCRETE_PANEL)
+                .add(ModBlocks.PINK_CONCRETE_PANEL);
 
 
     //Wall tags

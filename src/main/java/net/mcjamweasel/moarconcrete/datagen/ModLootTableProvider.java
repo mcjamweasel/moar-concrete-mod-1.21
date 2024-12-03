@@ -151,5 +151,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MAGENTA_CONCRETE_BRICKS);
         addDrop(ModBlocks.PINK_CONCRETE_BRICKS);
 
+        addDrop(ModBlocks.WHITE_CONCRETE_PANEL);
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_PANEL);
+        addDrop(ModBlocks.GRAY_CONCRETE_PANEL);
+        addDrop(ModBlocks.BLACK_CONCRETE_PANEL);
+        addDrop(ModBlocks.BROWN_CONCRETE_PANEL);
+        addDrop(ModBlocks.RED_CONCRETE_PANEL);
+        addDrop(ModBlocks.ORANGE_CONCRETE_PANEL);
+        addDrop(ModBlocks.YELLOW_CONCRETE_PANEL);
+        addDrop(ModBlocks.LIME_CONCRETE_PANEL);
+        addDrop(ModBlocks.GREEN_CONCRETE_PANEL);
+        addDrop(ModBlocks.CYAN_CONCRETE_PANEL);
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_PANEL);
+        addDrop(ModBlocks.BLUE_CONCRETE_PANEL);
+        addDrop(ModBlocks.PURPLE_CONCRETE_PANEL);
+        addDrop(ModBlocks.MAGENTA_CONCRETE_PANEL);
+        addDrop(ModBlocks.PINK_CONCRETE_PANEL);
+
     }
 }
