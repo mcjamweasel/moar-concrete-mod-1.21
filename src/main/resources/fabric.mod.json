@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "moarconcrete",
-	"version": "1.5.0",
+	"version": "1.5.1",
 	"name": "Moar Concrete",
-	"description": "Adds moar concrete - specifically, slabs, stairs, walls, fences & gates and buttons. Made (badly) by McJamweasel",
+	"description": "Adds moar concrete - specifically, slabs, stairs, walls, fences & gates, bricks, panels and buttons. Made (badly) by McJamweasel",
 	"authors": [
 		"McJamweasel"
 	],
@@ -26,8 +26,8 @@
 		]
 	},
 	"depends": {
-		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.21.2",
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
