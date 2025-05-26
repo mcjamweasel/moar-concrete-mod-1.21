@@ -12,6 +12,8 @@ The new Moar Concrete blocks are available in the crafting table and stonecutter
 
 **v1.5.1** adds support for Minecraft v1.21.4
 
+**v1.5.2** adds support for Minecraft v1.21.5
+
 
 **Installation** 
 
