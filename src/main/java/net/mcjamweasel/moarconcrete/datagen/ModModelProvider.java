@@ -24,6 +24,7 @@ public class ModModelProvider extends FabricModelProvider {
         whitePool.fence(ModBlocks.WHITE_CONCRETE_FENCE);
         whitePool.fenceGate(ModBlocks.WHITE_CONCRETE_GATE);
         whitePool.button(ModBlocks.WHITE_CONCRETE_BUTTON);
+        blockStateModelGenerator.registerGlassPane(ModBlocks.WHITE_CONCRETE_TEXTURE, ModBlocks.WHITE_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool lightGrayPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_CONCRETE);
         lightGrayPool.stairs(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS);

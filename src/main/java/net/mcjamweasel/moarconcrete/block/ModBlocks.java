@@ -311,8 +311,15 @@ public class ModBlocks {
 
 
 //Panel functions
+   //public static final Block WHITE_CONCRETE_PANEL = registerBlock("white_concrete_panel",
+     //       new PaneBlock(AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
+
+//Panel functions. Need one texture block and one panel block for each colour. The texture block is only used to set the texture for the panel, it is not available as a block in game.
+
+    public static final Block WHITE_CONCRETE_TEXTURE = registerBlock("white_concrete_texture",
+            new Block(AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE)));
     public static final Block WHITE_CONCRETE_PANEL = registerBlock("white_concrete_panel",
-            new PaneBlock(AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
+            new PaneBlock(AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE)));
 
 
 //Registry methods
