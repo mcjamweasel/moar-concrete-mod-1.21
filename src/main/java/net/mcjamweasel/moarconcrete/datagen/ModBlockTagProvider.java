@@ -114,7 +114,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_CONCRETE_WALL)
                 .add(ModBlocks.PINK_CONCRETE_FENCE)
                 .add(ModBlocks.PINK_CONCRETE_GATE)
-                .add(ModBlocks.PINK_CONCRETE_BUTTON);
+                .add(ModBlocks.PINK_CONCRETE_BUTTON)
+                .add(ModBlocks.WHITE_CONCRETE_PANEL);
 
 
     //Needs Stone Tool
@@ -215,7 +216,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_CONCRETE_WALL)
                 .add(ModBlocks.PINK_CONCRETE_FENCE)
                 .add(ModBlocks.PINK_CONCRETE_GATE)
-                .add(ModBlocks.PINK_CONCRETE_BUTTON);
+                .add(ModBlocks.PINK_CONCRETE_BUTTON)
+                .add(ModBlocks.WHITE_CONCRETE_PANEL);
 
 
     //Wall tags

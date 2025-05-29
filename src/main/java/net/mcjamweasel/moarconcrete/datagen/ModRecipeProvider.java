@@ -39,6 +39,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         concreteFenceRecipe(exporter, ModBlocks.WHITE_CONCRETE_FENCE, Items.WHITE_CONCRETE);
         concreteGateRecipe(exporter, ModBlocks.WHITE_CONCRETE_GATE, Items.WHITE_CONCRETE);
         concreteButtonRecipe(exporter, ModBlocks.WHITE_CONCRETE_BUTTON, Items.WHITE_CONCRETE);
+        offerStainedGlassPaneRecipe(exporter, ModBlocks.WHITE_CONCRETE_PANEL, Blocks.WHITE_CONCRETE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_PANEL, Blocks.WHITE_CONCRETE, 4);
 
     //Light Gray
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS, Blocks.LIGHT_GRAY_CONCRETE);
