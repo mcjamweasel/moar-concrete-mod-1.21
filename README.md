@@ -14,7 +14,7 @@ The new Moar Concrete blocks are available in the crafting table and stonecutter
 
 **v1.5.2** adds support for Minecraft v1.21.5
 
-**v1.3.1** Brings bricks, brick slabs and panels to 1.21.0 & 1.21.1.
+**v1.3.1** brings bricks, brick slabs and panels to 1.21.0 & 1.21.1.
 
 
 **Installation** 
