@@ -25,7 +25,7 @@ public class ModModelProvider extends FabricModelProvider {
         whitePool.fenceGate(ModBlocks.WHITE_CONCRETE_GATE);
         whitePool.button(ModBlocks.WHITE_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool whiteBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WHITE_CONCRETE_BRICKS);
-        whiteBrickPool.slab(ModBlocks.WHITE_CONCRETE_BRICK_SLABS);
+        whiteBrickPool.slab(ModBlocks.WHITE_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.WHITE_CONCRETE_TEXTURE, ModBlocks.WHITE_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool lightGrayPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_CONCRETE);
@@ -36,7 +36,7 @@ public class ModModelProvider extends FabricModelProvider {
         lightGrayPool.fenceGate(ModBlocks.LIGHT_GRAY_CONCRETE_GATE);
         lightGrayPool.button(ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool lightGrayBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LIGHT_GRAY_CONCRETE_BRICKS);
-        lightGrayBrickPool.slab(ModBlocks.LIGHT_GRAY_CONCRETE_BRICK_SLABS);
+        lightGrayBrickPool.slab(ModBlocks.LIGHT_GRAY_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.LIGHT_GRAY_CONCRETE_TEXTURE, ModBlocks.LIGHT_GRAY_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool grayPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_CONCRETE);
@@ -47,7 +47,7 @@ public class ModModelProvider extends FabricModelProvider {
         grayPool.fenceGate(ModBlocks.GRAY_CONCRETE_GATE);
         grayPool.button(ModBlocks.GRAY_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool grayBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GRAY_CONCRETE_BRICKS);
-        grayBrickPool.slab(ModBlocks.GRAY_CONCRETE_BRICK_SLABS);
+        grayBrickPool.slab(ModBlocks.GRAY_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.GRAY_CONCRETE_TEXTURE, ModBlocks.GRAY_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool blackPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_CONCRETE);
@@ -58,7 +58,7 @@ public class ModModelProvider extends FabricModelProvider {
         blackPool.fenceGate(ModBlocks.BLACK_CONCRETE_GATE);
         blackPool.button(ModBlocks.BLACK_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool blackBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLACK_CONCRETE_BRICKS);
-        blackBrickPool.slab(ModBlocks.BLACK_CONCRETE_BRICK_SLABS);
+        blackBrickPool.slab(ModBlocks.BLACK_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.BLACK_CONCRETE_TEXTURE, ModBlocks.BLACK_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool brownPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BROWN_CONCRETE);
@@ -69,7 +69,7 @@ public class ModModelProvider extends FabricModelProvider {
         brownPool.fenceGate(ModBlocks.BROWN_CONCRETE_GATE);
         brownPool.button(ModBlocks.BROWN_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool brownBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BROWN_CONCRETE_BRICKS);
-        brownBrickPool.slab(ModBlocks.BROWN_CONCRETE_BRICK_SLABS);
+        brownBrickPool.slab(ModBlocks.BROWN_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.BROWN_CONCRETE_TEXTURE, ModBlocks.BROWN_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool redPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_CONCRETE);
@@ -80,7 +80,7 @@ public class ModModelProvider extends FabricModelProvider {
         redPool.fenceGate(ModBlocks.RED_CONCRETE_GATE);
         redPool.button(ModBlocks.RED_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool redBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RED_CONCRETE_BRICKS);
-        redBrickPool.slab(ModBlocks.RED_CONCRETE_BRICK_SLABS);
+        redBrickPool.slab(ModBlocks.RED_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.RED_CONCRETE_TEXTURE, ModBlocks.RED_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool orangePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_CONCRETE);
@@ -91,7 +91,7 @@ public class ModModelProvider extends FabricModelProvider {
         orangePool.fenceGate(ModBlocks.ORANGE_CONCRETE_GATE);
         orangePool.button(ModBlocks.ORANGE_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool orangeBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ORANGE_CONCRETE_BRICKS);
-        orangeBrickPool.slab(ModBlocks.ORANGE_CONCRETE_BRICK_SLABS);
+        orangeBrickPool.slab(ModBlocks.ORANGE_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.ORANGE_CONCRETE_TEXTURE, ModBlocks.ORANGE_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool yellowPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_CONCRETE);
@@ -102,7 +102,7 @@ public class ModModelProvider extends FabricModelProvider {
         yellowPool.fenceGate(ModBlocks.YELLOW_CONCRETE_GATE);
         yellowPool.button(ModBlocks.YELLOW_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool yellowBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.YELLOW_CONCRETE_BRICKS);
-        yellowBrickPool.slab(ModBlocks.YELLOW_CONCRETE_BRICK_SLABS);
+        yellowBrickPool.slab(ModBlocks.YELLOW_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.YELLOW_CONCRETE_TEXTURE, ModBlocks.YELLOW_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool limePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_CONCRETE);
@@ -113,7 +113,7 @@ public class ModModelProvider extends FabricModelProvider {
         limePool.fenceGate(ModBlocks.LIME_CONCRETE_GATE);
         limePool.button(ModBlocks.LIME_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool limeBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LIME_CONCRETE_BRICKS);
-        limeBrickPool.slab(ModBlocks.LIME_CONCRETE_BRICK_SLABS);
+        limeBrickPool.slab(ModBlocks.LIME_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.LIME_CONCRETE_TEXTURE, ModBlocks.LIME_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool greenPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GREEN_CONCRETE);
@@ -124,7 +124,7 @@ public class ModModelProvider extends FabricModelProvider {
         greenPool.fenceGate(ModBlocks.GREEN_CONCRETE_GATE);
         greenPool.button(ModBlocks.GREEN_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool greenBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GREEN_CONCRETE_BRICKS);
-        greenBrickPool.slab(ModBlocks.GREEN_CONCRETE_BRICK_SLABS);
+        greenBrickPool.slab(ModBlocks.GREEN_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.GREEN_CONCRETE_TEXTURE, ModBlocks.GREEN_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool cyanPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CYAN_CONCRETE);
@@ -135,7 +135,7 @@ public class ModModelProvider extends FabricModelProvider {
         cyanPool.fenceGate(ModBlocks.CYAN_CONCRETE_GATE);
         cyanPool.button(ModBlocks.CYAN_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool cyanBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CYAN_CONCRETE_BRICKS);
-        cyanBrickPool.slab(ModBlocks.CYAN_CONCRETE_BRICK_SLABS);
+        cyanBrickPool.slab(ModBlocks.CYAN_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.CYAN_CONCRETE_TEXTURE, ModBlocks.CYAN_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool lightBluePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_CONCRETE);
@@ -146,7 +146,7 @@ public class ModModelProvider extends FabricModelProvider {
         lightBluePool.fenceGate(ModBlocks.LIGHT_BLUE_CONCRETE_GATE);
         lightBluePool.button(ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool lightBlueBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LIGHT_BLUE_CONCRETE_BRICKS);
-        lightBlueBrickPool.slab(ModBlocks.LIGHT_BLUE_CONCRETE_BRICK_SLABS);
+        lightBlueBrickPool.slab(ModBlocks.LIGHT_BLUE_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.LIGHT_BLUE_CONCRETE_TEXTURE, ModBlocks.LIGHT_BLUE_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool bluePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_CONCRETE);
@@ -157,7 +157,7 @@ public class ModModelProvider extends FabricModelProvider {
         bluePool.fenceGate(ModBlocks.BLUE_CONCRETE_GATE);
         bluePool.button(ModBlocks.BLUE_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool blueBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLUE_CONCRETE_BRICKS);
-        blueBrickPool.slab(ModBlocks.BLUE_CONCRETE_BRICK_SLABS);
+        blueBrickPool.slab(ModBlocks.BLUE_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.BLUE_CONCRETE_TEXTURE, ModBlocks.BLUE_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool purplePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_CONCRETE);
@@ -168,7 +168,7 @@ public class ModModelProvider extends FabricModelProvider {
         purplePool.fenceGate(ModBlocks.PURPLE_CONCRETE_GATE);
         purplePool.button(ModBlocks.PURPLE_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool purpleBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PURPLE_CONCRETE_BRICKS);
-        purpleBrickPool.slab(ModBlocks.PURPLE_CONCRETE_BRICK_SLABS);
+        purpleBrickPool.slab(ModBlocks.PURPLE_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.PURPLE_CONCRETE_TEXTURE, ModBlocks.PURPLE_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool magentaPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_CONCRETE);
@@ -179,7 +179,7 @@ public class ModModelProvider extends FabricModelProvider {
         magentaPool.fenceGate(ModBlocks.MAGENTA_CONCRETE_GATE);
         magentaPool.button(ModBlocks.MAGENTA_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool magentaBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAGENTA_CONCRETE_BRICKS);
-        magentaBrickPool.slab(ModBlocks.MAGENTA_CONCRETE_BRICK_SLABS);
+        magentaBrickPool.slab(ModBlocks.MAGENTA_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.MAGENTA_CONCRETE_TEXTURE, ModBlocks.MAGENTA_CONCRETE_PANEL);
 
         BlockStateModelGenerator.BlockTexturePool pinkPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_CONCRETE);
@@ -190,7 +190,7 @@ public class ModModelProvider extends FabricModelProvider {
         pinkPool.fenceGate(ModBlocks.PINK_CONCRETE_GATE);
         pinkPool.button(ModBlocks.PINK_CONCRETE_BUTTON);
         BlockStateModelGenerator.BlockTexturePool pinkBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PINK_CONCRETE_BRICKS);
-        pinkBrickPool.slab(ModBlocks.PINK_CONCRETE_BRICK_SLABS);
+        pinkBrickPool.slab(ModBlocks.PINK_CONCRETE_BRICK_SLAB);
         blockStateModelGenerator.registerGlassAndPane(ModBlocks.PINK_CONCRETE_TEXTURE, ModBlocks.PINK_CONCRETE_PANEL);
 
     }

@@ -6,7 +6,7 @@
   "block.moarconcrete.white_concrete_gate": "White Concrete Fence Gate",
   "block.moarconcrete.white_concrete_button": "White Concrete Button",
   "block.moarconcrete.white_concrete_bricks": "White Concrete Bricks",
-  "block.moarconcrete.white_concrete_brick_slabs": "White Concrete Brick Slab",
+  "block.moarconcrete.white_concrete_brick_slab": "White Concrete Brick Slab",
 
   "block.moarconcrete.light_gray_concrete_stairs": "Light Gray Concrete Stairs",
   "block.moarconcrete.light_gray_concrete_slab": "Light Gray Concrete Slab",
@@ -15,7 +15,7 @@
   "block.moarconcrete.light_gray_concrete_gate": "Light Gray Concrete Fence Gate",
   "block.moarconcrete.light_gray_concrete_button": "Light Gray Concrete Button",
   "block.moarconcrete.light_gray_concrete_bricks": "Light Gray Concrete Bricks",
-  "block.moarconcrete.light_gray_concrete_brick_slabs": "Light Gray Concrete Brick Slab",
+  "block.moarconcrete.light_gray_concrete_brick_slab": "Light Gray Concrete Brick Slab",
 
   "block.moarconcrete.gray_concrete_stairs": "Gray Concrete Stairs",
   "block.moarconcrete.gray_concrete_slab": "Gray Concrete Slab",
@@ -24,7 +24,7 @@
   "block.moarconcrete.gray_concrete_gate": "Gray Concrete Fence Gate",
   "block.moarconcrete.gray_concrete_button": "Gray Concrete Button",
   "block.moarconcrete.gray_concrete_bricks": "Gray Concrete Bricks",
-  "block.moarconcrete.gray_concrete_brick_slabs": "Gray Concrete Brick Slab",
+  "block.moarconcrete.gray_concrete_brick_slab": "Gray Concrete Brick Slab",
 
   "block.moarconcrete.black_concrete_stairs": "Black Concrete Stairs",
   "block.moarconcrete.black_concrete_slab": "Black Concrete Slab",
@@ -33,7 +33,7 @@
   "block.moarconcrete.black_concrete_gate": "Black Concrete Fence Gate",
   "block.moarconcrete.black_concrete_button": "Black Concrete Button",
   "block.moarconcrete.black_concrete_bricks": "Black Concrete Bricks",
-  "block.moarconcrete.black_concrete_brick_slabs": "Black Concrete Brick Slab",
+  "block.moarconcrete.black_concrete_brick_slab": "Black Concrete Brick Slab",
 
   "block.moarconcrete.brown_concrete_stairs": "Brown Concrete Stairs",
   "block.moarconcrete.brown_concrete_slab": "Brown Concrete Slab",
@@ -42,7 +42,7 @@
   "block.moarconcrete.brown_concrete_gate": "Brown Concrete Fence Gate",
   "block.moarconcrete.brown_concrete_button": "Brown Concrete Button",
   "block.moarconcrete.brown_concrete_bricks": "Brown Concrete Bricks",
-  "block.moarconcrete.brown_concrete_brick_slabs": "Brown Concrete Brick Slab",
+  "block.moarconcrete.brown_concrete_brick_slab": "Brown Concrete Brick Slab",
 
   "block.moarconcrete.red_concrete_stairs": "Red Concrete Stairs",
   "block.moarconcrete.red_concrete_slab": "Red Concrete Slab",
@@ -51,7 +51,7 @@
   "block.moarconcrete.red_concrete_gate": "Red Concrete Fence Gate",
   "block.moarconcrete.red_concrete_button": "Red Concrete Button",
   "block.moarconcrete.red_concrete_bricks": "Red Concrete Bricks",
-  "block.moarconcrete.red_concrete_brick_slabs": "Red Concrete Brick Slab",
+  "block.moarconcrete.red_concrete_brick_slab": "Red Concrete Brick Slab",
 
   "block.moarconcrete.orange_concrete_stairs": "Orange Concrete Stairs",
   "block.moarconcrete.orange_concrete_slab": "Orange Concrete Slab",
@@ -60,7 +60,7 @@
   "block.moarconcrete.orange_concrete_gate": "Orange Concrete Fence Gate",
   "block.moarconcrete.orange_concrete_button": "Orange Concrete Button",
   "block.moarconcrete.orange_concrete_bricks": "Orange Concrete Bricks",
-  "block.moarconcrete.orange_concrete_brick_slabs": "Orange Concrete Brick Slab",
+  "block.moarconcrete.orange_concrete_brick_slab": "Orange Concrete Brick Slab",
 
   "block.moarconcrete.yellow_concrete_stairs": "Yellow Concrete Stairs",
   "block.moarconcrete.yellow_concrete_slab": "Yellow Concrete Slab",
@@ -69,7 +69,7 @@
   "block.moarconcrete.yellow_concrete_gate": "Yellow Concrete Fence Gate",
   "block.moarconcrete.yellow_concrete_button": "Yellow Concrete Button",
   "block.moarconcrete.yellow_concrete_bricks": "Yellow Concrete Bricks",
-  "block.moarconcrete.yellow_concrete_brick_slabs": "Yellow Concrete Brick Slab",
+  "block.moarconcrete.yellow_concrete_brick_slab": "Yellow Concrete Brick Slab",
 
   "block.moarconcrete.lime_concrete_stairs": "Lime Concrete Stairs",
   "block.moarconcrete.lime_concrete_slab": "Lime Concrete Slab",
@@ -78,7 +78,7 @@
   "block.moarconcrete.lime_concrete_gate": "Lime Concrete Fence Gate",
   "block.moarconcrete.lime_concrete_button": "Lime Concrete Button",
   "block.moarconcrete.lime_concrete_bricks": "Lime Concrete Bricks",
-  "block.moarconcrete.lime_concrete_brick_slabs": "Lime Concrete Brick Slab",
+  "block.moarconcrete.lime_concrete_brick_slab": "Lime Concrete Brick Slab",
 
   "block.moarconcrete.green_concrete_stairs": "Green Concrete Stairs",
   "block.moarconcrete.green_concrete_slab": "Green Concrete Slab",
@@ -87,7 +87,7 @@
   "block.moarconcrete.green_concrete_gate": "Green Concrete Fence Gate",
   "block.moarconcrete.green_concrete_button": "Green Concrete Button",
   "block.moarconcrete.green_concrete_bricks": "Green Concrete Bricks",
-  "block.moarconcrete.green_concrete_brick_slabs": "Green Concrete Brick Slab",
+  "block.moarconcrete.green_concrete_brick_slab": "Green Concrete Brick Slab",
 
   "block.moarconcrete.cyan_concrete_stairs": "Cyan Concrete Stairs",
   "block.moarconcrete.cyan_concrete_slab": "Cyan Concrete Slab",
@@ -96,7 +96,7 @@
   "block.moarconcrete.cyan_concrete_gate": "Cyan Concrete Gate",
   "block.moarconcrete.cyan_concrete_button": "Cyan Concrete Button",
   "block.moarconcrete.cyan_concrete_bricks": "Cyan Concrete Bricks",
-  "block.moarconcrete.cyan_concrete_brick_slabs": "Cyan Concrete Brick Slab",
+  "block.moarconcrete.cyan_concrete_brick_slab": "Cyan Concrete Brick Slab",
 
   "block.moarconcrete.light_blue_concrete_stairs": "Light Blue Concrete Stairs",
   "block.moarconcrete.light_blue_concrete_slab": "Light Blue Concrete Slab",
@@ -105,7 +105,7 @@
   "block.moarconcrete.light_blue_concrete_gate": "Light Blue Concrete Fence Gate",
   "block.moarconcrete.light_blue_concrete_button": "Light Blue Concrete Button",
   "block.moarconcrete.light_blue_concrete_bricks": "Light Blue Concrete Bricks",
-  "block.moarconcrete.light_blue_concrete_brick_slabs": "Light Blue Concrete Brick Slab",
+  "block.moarconcrete.light_blue_concrete_brick_slab": "Light Blue Concrete Brick Slab",
 
   "block.moarconcrete.blue_concrete_stairs": "Blue Concrete Stairs",
   "block.moarconcrete.blue_concrete_slab": "Blue Concrete Slab",
@@ -114,7 +114,7 @@
   "block.moarconcrete.blue_concrete_gate": "Blue Concrete Fence Gate",
   "block.moarconcrete.blue_concrete_button": "Blue Concrete Button",
   "block.moarconcrete.blue_concrete_bricks": "Blue Concrete Bricks",
-  "block.moarconcrete.blue_concrete_brick_slabs": "Blue Concrete Brick Slab",
+  "block.moarconcrete.blue_concrete_brick_slab": "Blue Concrete Brick Slab",
 
   "block.moarconcrete.purple_concrete_stairs": "Purple Concrete Stairs",
   "block.moarconcrete.purple_concrete_slab": "Purple Concrete Slab",
@@ -123,7 +123,7 @@
   "block.moarconcrete.purple_concrete_gate": "Purple Concrete Fence Gate",
   "block.moarconcrete.purple_concrete_button": "Purple Concrete Button",
   "block.moarconcrete.purple_concrete_bricks": "Purple Concrete Bricks",
-  "block.moarconcrete.purple_concrete_brick_slabs": "Purple Concrete Brick Slab",
+  "block.moarconcrete.purple_concrete_brick_slab": "Purple Concrete Brick Slab",
 
   "block.moarconcrete.magenta_concrete_stairs": "Magenta Concrete Stairs",
   "block.moarconcrete.magenta_concrete_slab": "Magenta Concrete Slab",
@@ -132,7 +132,7 @@
   "block.moarconcrete.magenta_concrete_gate": "Magenta Concrete Fence Gate",
   "block.moarconcrete.magenta_concrete_button": "Magenta Concrete Button",
   "block.moarconcrete.magenta_concrete_bricks": "Magenta Concrete Bricks",
-  "block.moarconcrete.magenta_concrete_brick_slabs": "Magenta Concrete Brick Slab",
+  "block.moarconcrete.magenta_concrete_brick_slab": "Magenta Concrete Brick Slab",
 
   "block.moarconcrete.pink_concrete_stairs": "Pink Concrete Stairs",
   "block.moarconcrete.pink_concrete_slab": "Pink Concrete Slab",
@@ -141,7 +141,7 @@
   "block.moarconcrete.pink_concrete_gate": "Pink Concrete Fence Gate",
   "block.moarconcrete.pink_concrete_button": "Pink Concrete Button",
   "block.moarconcrete.pink_concrete_bricks": "Pink Concrete Bricks",
-  "block.moarconcrete.pink_concrete_brick_slabs": "Pink Concrete Brick Slab",
+  "block.moarconcrete.pink_concrete_brick_slab": "Pink Concrete Brick Slab",
 
   "block.moarconcrete.white_concrete_panel": "White Concrete Panel",
   "block.moarconcrete.light_gray_concrete_panel": "Light Gray Concrete Panel",
