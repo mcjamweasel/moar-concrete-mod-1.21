@@ -1,6 +1,5 @@
 package net.mcjamweasel.moarconcrete.item;
 
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.mcjamweasel.moarconcrete.MoarConcrete;

@@ -3,6 +3,7 @@ package net.mcjamweasel.moarconcrete;
 import net.fabricmc.api.ModInitializer;
 
 import net.mcjamweasel.moarconcrete.block.ModBlocks;
+import net.mcjamweasel.moarconcrete.item.ModItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +13,7 @@ public class MoarConcrete implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 	}
 }
