@@ -18,6 +18,8 @@ The new Moar Concrete blocks are available in the crafting table and stonecutter
 
 **v1.3.1** brings bricks, brick slabs and panels to 1.21.0 & 1.21.1.
 
+**v1.6.0** includes support for Minecraft 1.21.6 pre-release 2. Refactored blocktag datagen. Build will release with 1.21.6.
+
 
 **Installation** 
 
