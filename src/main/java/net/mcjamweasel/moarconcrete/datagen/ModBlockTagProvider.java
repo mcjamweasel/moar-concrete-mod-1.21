@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.mcjamweasel.moarconcrete.ModBlockGroups;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
@@ -21,34 +22,46 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
             //For each Block in the group
             for (ModBlockGroups.MCBlock block : group) {
                 //Add pickaxe & stone tool tags
-                getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(block.customBlock());
-                getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL).add(block.customBlock());
+
+                //getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(block.customBlock());
+                //getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL).add(block.customBlock());
+                valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(block.customBlock());
+                valueLookupBuilder(BlockTags.NEEDS_STONE_TOOL).add(block.customBlock());
             }
         }
 
 
     //Add Wall tags to each Block in the group
         for (ModBlockGroups.MCBlock block : ModBlockGroups.MC_WALL){
-            getOrCreateTagBuilder(BlockTags.WALLS).add(block.customBlock());
+
+            //getOrCreateTagBuilder(BlockTags.WALLS).add(block.customBlock());
+            valueLookupBuilder(BlockTags.WALLS).add(block.customBlock());
         }
 
 
     //Add Fence tags to each Block in the group
         for (ModBlockGroups.MCBlock block : ModBlockGroups.MC_FENCE){
-            getOrCreateTagBuilder(BlockTags.FENCES).add(block.customBlock());
+
+            //getOrCreateTagBuilder(BlockTags.FENCES).add(block.customBlock());
+            valueLookupBuilder(BlockTags.FENCES).add(block.customBlock());
         }
 
 
     //Add Gate tags to each Block in the group
         for (ModBlockGroups.MCBlock block : ModBlockGroups.MC_GATE){
-            getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(block.customBlock());
+
+            //getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(block.customBlock());
+            valueLookupBuilder(BlockTags.FENCE_GATES).add(block.customBlock());
         }
 
 
     //Add Button tags to each Block in the group
         for (ModBlockGroups.MCBlock block : ModBlockGroups.MC_BUTTON){
-            getOrCreateTagBuilder(BlockTags.BUTTONS).add(block.customBlock());
+
+            //getOrCreateTagBuilder(BlockTags.BUTTONS).add(block.customBlock());
+            valueLookupBuilder(BlockTags.BUTTONS).add(block.customBlock());
         }
 
     }
+
 }
